@@ -1,0 +1,23 @@
+# Node.js / TypeScript
+node_modules/
+dist/
+*.tsbuildinfo
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+update-log.txt
+
+# OS/IDE specific
+.DS_Store
+Thumbs.db
+
+# VSCode
+.vscode/
+
+# Backup files
+*.bak
+*.swp
+*~
