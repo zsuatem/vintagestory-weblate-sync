@@ -3,21 +3,21 @@
     "name": "Auto Map Markers",
     "modid": "egocaribautomapmarkers",
     "customPath": "automapmarkers",
-    "version": ""
+    "version": "4.0.3"
   },
   {
     "name": "Food Shelves",
     "modid": "foodshelves",
-    "version": ""
+    "version": "2.2.1"
   },
   {
     "name": "Purposeful Storage",
     "modid": "purposefulstorage",
-    "version": ""
+    "version": "1.4.1"
   },
   {
     "name": "From Golden Combs",
     "modid": "fromgoldencombs",
-    "version": ""
+    "version": "1.9.1"
   }
 ]
