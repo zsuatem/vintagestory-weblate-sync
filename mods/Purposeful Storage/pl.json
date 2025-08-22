@@ -20,7 +20,7 @@
     "block-schematicrack-*": "",
     "block-saddlerack-*": "",
     "block-medallionrack-*": "",
-    "blockdesc-canhold-title": "",
+    "blockdesc-canhold-title": "Może przechowywać",
     "helddesc-wardrobe": "",
     "helddesc-hatrack": "",
     "helddesc-blanketrack": "",
@@ -39,5 +39,5 @@
     "helddesc-schematicrack": "",
     "helddesc-saddlerack": "",
     "helddesc-medallionrack": "",
-    "This item cannot be placed in this container.": ""
+    "This item cannot be placed in this container.": "Tego przedmiotu nie można umieścić w tym pojemniku."
 }
