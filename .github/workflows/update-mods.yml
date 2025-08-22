@@ -24,7 +24,7 @@ jobs:
 
       - name: Run update script
         run: |
-          node scripts/update-mods.ts
+          npx ts-node scripts/update-mods.ts
 
       - name: Commit and push changes (if any)
         run: |
