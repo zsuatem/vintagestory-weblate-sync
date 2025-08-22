@@ -1,0 +1,1 @@
+# vintagestory-weblate-sync
