@@ -7,6 +7,7 @@ import * as semver from "semver";
 interface ModEntry {
     name: string;
     modid: string;
+    customPath?: string;
     version?: string;
 }
 
@@ -67,7 +68,8 @@ async function main() {
         const zip = new AdmZip(Buffer.from(zipBuffer));
         const entries = zip.getEntries();
 
-        const expectedPath = `assets/${mod.modid}/lang/en.json`.toLowerCase();
+        const customFolder = mod.customPath ?? mod.modid;
+        const expectedPath = `assets/${customFolder}/lang/en.json`.toLowerCase();
         const matches = entries.filter((e: typeof entries[0]) => e.entryName.toLowerCase() === expectedPath);
 
         if (matches.length !== 1) {
