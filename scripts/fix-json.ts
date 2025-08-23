@@ -21,7 +21,7 @@ function walk(dir: string) {
         const stat = fs.statSync(fullPath);
         if (stat.isDirectory()) {
             walk(fullPath);
-        } else if (file.endsWith('.json')) {
+        } else if (file.toLowerCase() === 'en.json') {
             fixFile(fullPath);
         }
     }
