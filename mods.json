@@ -23,46 +23,46 @@
   {
     "name": "Toggle Mouse Control",
     "modid": "togglemousecontrol",
-    "version": ""
+    "version": "1.3.0"
   },
   {
     "name": "Status Hud Continued",
     "modid": "statushudcont",
-    "version": ""
+    "version": "3.2.7"
   },
   {
     "name": "Millwright",
     "modid": "millwright",
-    "version": ""
+    "version": "1.2.7"
   },
   {
     "name": "Herbarium",
     "modid": "herbarium",
-    "version": ""
+    "version": "1.4.0"
   },
   {
     "name": "Wildcraft Fruits and Nuts",
     "modid": "wildcraftfruit",
-    "version": ""
+    "version": "1.4.2"
   },
   {
     "name": "Wildcraft Trees and Shrubs",
     "modid": "wildcrafttree",
-    "version": ""
+    "version": "1.3.1"
   },
   {
     "name": "Wildcraft Herbs and Spices",
     "modid": "wildcraftherb",
-    "version": ""
+    "version": "0.0.1"
   },
   {
     "name": "A Culinary Artillery",
     "modid": "aculinaryartillery",
-    "version": ""
+    "version": "1.2.5"
   },
   {
     "name": "Expanded Foods",
     "modid": "expandedfoods",
-    "version": ""
+    "version": "1.7.4"
   }
 ]
