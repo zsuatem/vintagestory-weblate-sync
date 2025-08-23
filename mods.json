@@ -19,5 +19,50 @@
     "name": "From Golden Combs",
     "modid": "fromgoldencombs",
     "version": "1.9.1"
+  },
+  {
+    "name": "Toggle Mouse Control",
+    "modid": "togglemousecontrol",
+    "version": ""
+  },
+  {
+    "name": "Status Hud Continued",
+    "modid": "statushudcont",
+    "version": ""
+  },
+  {
+    "name": "Millwright",
+    "modid": "millwright",
+    "version": ""
+  },
+  {
+    "name": "Herbarium",
+    "modid": "herbarium",
+    "version": ""
+  },
+  {
+    "name": "Wildcraft Fruits and Nuts",
+    "modid": "wildcraftfruit",
+    "version": ""
+  },
+  {
+    "name": "Wildcraft Trees and Shrubs",
+    "modid": "wildcrafttree",
+    "version": ""
+  },
+  {
+    "name": "Wildcraft Herbs and Spices",
+    "modid": "wildcraftherb",
+    "version": ""
+  },
+  {
+    "name": "A Culinary Artillery",
+    "modid": "aculinaryartillery",
+    "version": ""
+  },
+  {
+    "name": "Expanded Foods",
+    "modid": "expandedfoods",
+    "version": ""
   }
 ]
