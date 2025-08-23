@@ -26,6 +26,10 @@ jobs:
         run: |
           npx ts-node scripts/update-mods.ts
 
+      - name: Fix invalid trailing commas in JSON files
+        run: |
+          npx ts-node scripts/fix-json.ts
+
       - name: Commit and push changes (if any)
         run: |
           git config user.name "github-actions"
