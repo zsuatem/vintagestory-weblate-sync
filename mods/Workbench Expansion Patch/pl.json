@@ -1,18 +1,1 @@
-{
-    "msg-chisel-needed": "",
-    "msg-input-crafting-materials": "",
-    "msg-copy-chisel-block": "",
-    "msg-copy-chiselblock-need-materials": "",
-    "msg-craftmaterials-for": "",
-    "dialog-extended-workbench-title": "",
-    "workbench-expansion-crafting": "",
-    "workbench-expansion-crafting-title": "",
-    "workbench-expansion-crafting-text": "",
-    "block-scaffold-*-north": "",
-    "block-scaffold-up-north": "",
-    "block-workbenchextended-*-north": "",
-    "block-chiselplasterfency-diagonal-ud": "",
-    "block-chiselplasterfency-stripes-ud": "",
-    "block-chiselplasterplain-plain": "",
-    "block-chiselplasterplain-square": ""
-}
+{}
