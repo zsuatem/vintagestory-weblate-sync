@@ -1,0 +1,23 @@
+{
+    "block-reedshrapnelbomb": "",
+    "block-potbomb": "",
+    "block-stonebomb": "",
+    "block-brickbomb": "",
+    "block-brickbomb2": "",
+    "block-brickbomb3": "",
+    "block-orebarrel": "",
+    "block-stonebarrel": "",
+    "blockdesc-reedshrapnelbomb": "",
+    "blockdesc-potbomb": "",
+    "blockdesc-stonebomb": "",
+    "blockdesc-brickbomb": "",
+    "blockdesc-brickbomb2": "",
+    "blockdesc-brickbomb3": "",
+    "blockdesc-orebarrel": "",
+    "blockdesc-stonebarrel": "",
+    "item-flint-firestarter": "",
+    "item-firepart": "",
+    "itemdesc-flint-firestarter": "",
+    "itemdesc-firepart": "",
+    "game:tabname-bomb": ""
+}
