@@ -124,5 +124,14 @@
     "item-handbooktext-frameliner": "Wyściółki ramki wykonuje się z <a href=\"handbook://block-linen-waxed-down\">woskowanego lnianego płótna</a> przy użyciu noża. Następnie służą do wykładania <a href=\"handbook://item-fromgoldencombs:beeframe-ebony-empty\">pustych ramek</a> w <a href=\"handbook://block-fromgoldencombs:framerack-ebony-baldcypress-east\">stojaku na ramki</a>.",
     "item-handbooktitle-waxedflaxtwine": "Woskowany lniany sznurek",
     "item-handbooktext-waxedflaxtwine": "Ten sznurek służy do naprawy <a href=\"handbook://item-fromgoldencombs:beeframe-ebony-lined\">wyłożonych ramek</a> w <a href=\"handbook://block-fromgoldencombs:framerack-ebony-baldcypress-east\">stojaku na ramki</a>.",
-    "fromgoldencombs:nonemptysuper": "Korpus miodowy musi być pusty, aby można go było przekształcić w korpus gniazdowy."
+    "fromgoldencombs:nonemptysuper": "Korpus miodowy musi być pusty, aby można go było przekształcić w korpus gniazdowy.",
+    "blockhelp-ceramichive-*-empty-notop": "Użyj zamieszkanej kószki, aby przenieść kolonię",
+    "blockhelp-ceramichive-*-populated-notop": "Umieść górną część ula.",
+    "blockhelp-ceramichive-*-empty-withtop": "Użyj zamieszkanej kószki.",
+    "blockhelp-ceramichive-*-empty-withtop-2": "Aby podnieść.",
+    "blockhelp-ceramichive-*-populated-withtop": "Kliknij <icon>rightmousebutton</icon>, aby wsiąść naczynie na miód, pierścień z wosku wskazuje gotowość do zbioru.",
+    "block-ceramicbroodpot-*-notop": "Ceramiczny korpus gniazdowy",
+    "block-ceramicbroodpot-*-withtop": "Ceramiczny ul",
+    "block-hivetop-*": "Ceramiczne naczynie na miód",
+    "block-ceramichive-*-raw": "Niewypalony ceramiczny korpus gniazdowy"
 }
