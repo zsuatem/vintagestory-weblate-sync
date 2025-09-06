@@ -5,7 +5,7 @@ import { parse } from 'json5';
 const modsPath = './mods';
 
 function fixFile(filePath: string) {
-    const content = fs.readFileSync(filePath, 'utf8');
+    const content = fs.readFileSync(filePath, 'utf8').replace(/\r/g, '');
     try {
         const parsed = parse(content);
         fs.writeFileSync(filePath, JSON.stringify(parsed, null, 2));
