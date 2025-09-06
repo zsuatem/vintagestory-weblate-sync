@@ -64,5 +64,112 @@
     "name": "Expanded Foods",
     "modid": "expandedfoods",
     "version": "1.7.4"
+  },
+  {
+    "name": "PlayerList",
+    "modid": "playerlist",
+    "version": ""
+  },
+  {
+    "name": "ImGui",
+    "modid": "vsimgui",
+    "version": ""
+  },
+  {
+    "name": "Workbench Expansion Patch",
+    "modid": "workbenchexpansionpatch",
+    "version": ""
+  },
+  {
+    "name": "Farseer",
+    "modid": "farseer",
+    "version": ""
+  },
+  {
+    "name": "SlowTox",
+    "modid": "slowtox",
+    "version": ""
+  },
+  {
+    "name": "Real Smoke",
+    "modid": "realsmoke",
+    "version": ""
+  },
+  {
+    "name": "Lathe Mod",
+    "modid": "lathemod",
+    "version": ""
+  },
+  {
+    "name": "Toolsmith",
+    "modid": "toolsmith",
+    "version": ""
+  },
+  {
+    "name": "Smithing Plus",
+    "modid": "smithingplus",
+    "version": ""
+  },
+  {
+    "name": "CAN Jewelry",
+    "modid": "canjewelry",
+    "version": ""
+  },
+  {
+    "name": "ShearLib",
+    "modid": "shearlib",
+    "version": ""
+  },
+  {
+    "name": "Wool & More",
+    "modid": "wool",
+    "version": ""
+  },
+  {
+    "name": "Butchering",
+    "modid": "butchering",
+    "version": ""
+  },
+  {
+    "name": "Expanded Matter",
+    "modid": "em",
+    "version": ""
+  },
+  {
+    "name": "Tailor's Delight",
+    "modid": "tailorsdelight",
+    "version": ""
+  },
+  {
+    "name": "Dressmakers",
+    "modid": "dressmakers",
+    "version": ""
+  },
+  {
+    "name": "Stone Bake Oven",
+    "modid": "stonebakeoven",
+    "version": ""
+  },
+  {
+    "name": "Fields of Salt",
+    "modid": "fieldsofsalt",
+    "version": ""
+  },
+  {
+    "name": "Real Grapes",
+    "modid": "apegrapes",
+    "customPath": "game",
+    "version": ""
+  },
+  {
+    "name": "Arrow Barrels",
+    "modid": "arrowbarrels",
+    "version": ""
+  },
+  {
+    "name": "Explosives",
+    "modid": "explosive",
+    "customPath": "bomb",
+    "version": ""
   }
 ]
