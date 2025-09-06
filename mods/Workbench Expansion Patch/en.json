@@ -1,0 +1,18 @@
+{
+  "msg-chisel-needed": "Need a Chisel to copy a chiseled Block",
+  "msg-input-crafting-materials": "Input materials for crafting",
+  "msg-copy-chisel-block": "Copy chiseled Block",
+  "msg-copy-chiselblock-need-materials": "Copy chiseled Block needs Materials: ",
+  "msg-craftmaterials-for": "Materials for crafting: ",
+  "dialog-extended-workbench-title": "Extended Workbench",
+  "workbench-expansion-crafting": "<a href=\"handbook://craftinginfo-expansion-workbench\">Crafting with extended Workbench</a>",
+  "workbench-expansion-crafting-title": "Crafting with extended Workbench",
+  "workbench-expansion-crafting-text": "<strong>Crafting with extended Workbench</strong><br><br><i>Hold rightclick to use</i><br/><br/>To copy a chiselable Block<br/> Put the chisseled Block on slot 1, a chisel on slot 2 in the inventory. Now see the matieral list.",
+  "block-scaffold-*-north": "Scaffolding",
+  "block-scaffold-up-north": "Scaffolding",
+  "block-workbenchextended-*-north": "Extended Workbench",
+  "block-chiselplasterfency-diagonal-ud": "Plaster (Diagonal logs) chiselable",
+  "block-chiselplasterfency-stripes-ud": "Plaster (Straight logs) chiselable",
+  "block-chiselplasterplain-plain": "Plaster (Plain) chiselable",
+  "block-chiselplasterplain-square": "Plaster (Square logs) chiselable"
+}
