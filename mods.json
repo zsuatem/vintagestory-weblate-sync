@@ -78,6 +78,7 @@
   {
     "name": "Workbench Expansion Patch",
     "modid": "workbenchexpansionpatch",
+    "customPath": "workbenchexpansion",
     "version": ""
   },
   {
