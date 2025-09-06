@@ -5,9 +5,10 @@ import { parse } from 'json5';
 const modsPath = './mods';
 
 function fixFile(filePath: string) {
-    const content = fs.readFileSync(filePath, 'utf8').replace(/\r/g, '');
+    const content = fs.readFileSync(filePath, 'utf8');
     try {
-        const parsed = parse(content);
+        const fixedContent = content.replace(/(?<!\\)\r?\n/g, "\\n");
+        const parsed = parse(fixedContent);
         fs.writeFileSync(filePath, JSON.stringify(parsed, null, 2));
         console.log(`✔ Fixed: ${filePath}`);
     } catch (e) {
