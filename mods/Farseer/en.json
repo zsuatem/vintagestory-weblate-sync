@@ -1,0 +1,16 @@
+{
+  "config-title": "Farseer settings",
+  "toggle-config": "Toggle Farseer settings window",
+  "enabled": "Enable far terrain",
+  "view-distance": "Far view distance",
+  "view-distance-with-max": "Far view distance (Max {0})",
+  "sky-tint": "Sky tint",
+  "color-tint-r": "Color tint (R)",
+  "color-tint-g": "Color tint (G)",
+  "color-tint-b": "Color tint (B)",
+  "color-tint-a": "Color tint (A)",
+  "light-level-bias": "Light level influence",
+  "fade-bias": "Fade bias",
+  "globe-effect": "Globe effect",
+  "reset": "Reset to defaults"
+}

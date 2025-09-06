@@ -1,0 +1,17 @@
+{
+  "shearlib:shearable": "<font color=\"tan\">Can be shorn and will produce {0} units of fleece.</font>",
+  "shearlib:shearablefull": "<font color=\"lightgreen\">Can be shorn and will produce {0} units of fleece.</font>",
+  "shearlib:insufficientgen": "<font color=\"tomato\">Too wild to be shorn, must be at least generation {0}.</font>",
+  "shearlib:hoursuntilshearable": "<font color=\"orange\">Fleece too short, {0} hours until ready to be shorn.</font>",
+  "shearlib:daysuntilshearable": "<font color=\"orange\">Fleece too short, {0} days until ready to be shorn.</font>",
+  "shearlib:daysmaxwool": "Takes {0} days to fully grow its fleece to {1} units.",
+  "shearlib:hoursmaxwool": "Takes {0} hours to fully grow its fleece to {1} units.",
+  "shearlib:dayswaitmaxwool": "Wait {0} more days to harvest the full {1} units of fleece.",
+  "shearlib:hourswaitmaxwool": "Wait {0} more hours to harvest the full {1} units of fleece.",
+  "shearlib:shearsbonus": "Using shears instead of a knife provides <font color=\"yellow\">+{0} bonus fleece</font>.",
+  "shearlib:animaltoostressedclient": "Animal is too stressed and cannot be sheared now.",
+  "shearlib:animaltoowildclient": "Animal is too wild and won't let you shear them, it needs to be generation {0} to be able to shear.",
+  "shearlib:animalinsufficientwoolclient": "Animal hasn't grown enough fleece to be able to shear it yet, it needs a minimum of {0} units to be able to shear.",
+  "shearlib:dropnotfound": "ShearLib: Cannot find '{0}' to drop while shearing.",
+  "shearlib:dropsecondnotfound": "ShearLib: Cannot find '{0}' to drop as secondary while shearing."
+}

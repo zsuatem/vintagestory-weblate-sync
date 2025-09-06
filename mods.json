@@ -68,12 +68,12 @@
   {
     "name": "PlayerList",
     "modid": "playerlist",
-    "version": ""
+    "version": "2.1.5"
   },
   {
     "name": "ImGui",
     "modid": "vsimgui",
-    "version": ""
+    "version": "1.1.12"
   },
   {
     "name": "Workbench Expansion Patch",
@@ -83,93 +83,93 @@
   {
     "name": "Farseer",
     "modid": "farseer",
-    "version": ""
+    "version": "1.3.2"
   },
   {
     "name": "SlowTox",
     "modid": "slowtox",
-    "version": ""
+    "version": "3.0.0"
   },
   {
     "name": "Real Smoke",
     "modid": "realsmoke",
-    "version": ""
+    "version": "0.7.1"
   },
   {
     "name": "Lathe Mod",
     "modid": "lathemod",
-    "version": ""
+    "version": "1.0.3"
   },
   {
     "name": "Toolsmith",
     "modid": "toolsmith",
-    "version": ""
+    "version": "1.2.7"
   },
   {
     "name": "Smithing Plus",
     "modid": "smithingplus",
-    "version": ""
+    "version": "1.7.4-dev.120"
   },
   {
     "name": "CAN Jewelry",
     "modid": "canjewelry",
-    "version": ""
+    "version": "0.5.6"
   },
   {
     "name": "ShearLib",
     "modid": "shearlib",
-    "version": ""
+    "version": "1.2.0"
   },
   {
     "name": "Wool & More",
     "modid": "wool",
-    "version": ""
+    "version": "1.7.0"
   },
   {
     "name": "Butchering",
     "modid": "butchering",
-    "version": ""
+    "version": "1.10.1"
   },
   {
     "name": "Expanded Matter",
     "modid": "em",
-    "version": ""
+    "version": "3.3.0"
   },
   {
     "name": "Tailor's Delight",
     "modid": "tailorsdelight",
-    "version": ""
+    "version": "2.0.0"
   },
   {
     "name": "Dressmakers",
     "modid": "dressmakers",
-    "version": ""
+    "version": "1.7.0"
   },
   {
     "name": "Stone Bake Oven",
     "modid": "stonebakeoven",
-    "version": ""
+    "version": "1.2.0"
   },
   {
     "name": "Fields of Salt",
     "modid": "fieldsofsalt",
-    "version": ""
+    "version": "1.2.4"
   },
   {
     "name": "Real Grapes",
     "modid": "apegrapes",
     "customPath": "game",
-    "version": ""
+    "version": "1.3.0"
   },
   {
     "name": "Arrow Barrels",
     "modid": "arrowbarrels",
-    "version": ""
+    "version": "1.2.1"
   },
   {
     "name": "Explosives",
     "modid": "explosive",
     "customPath": "bomb",
-    "version": ""
+    "version": "0.1.1"
   }
 ]
