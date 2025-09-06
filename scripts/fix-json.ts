@@ -5,14 +5,25 @@ import { parse } from 'json5';
 const modsPath = './mods';
 
 function fixFile(filePath: string) {
-    const content = fs.readFileSync(filePath, 'utf8');
+    let content = fs.readFileSync(filePath, 'utf8');
+
     try {
-        const fixedContent = content.replace(/(?<!\\)\r?\n/g, "\\n");
-        const parsed = parse(fixedContent);
+        const parsed = parse(content);
         fs.writeFileSync(filePath, JSON.stringify(parsed, null, 2));
-        console.log(`✔ Fixed: ${filePath}`);
-    } catch (e) {
-        console.warn(`✖ Failed to parse: ${filePath}`, (e as Error).message);
+        console.log(`✔ Fixed (clean): ${filePath}`);
+    } catch (e1) {
+        const flattened = content
+            .replace(/\r\n/g, '\n')
+            .replace(/\r/g, '\n')
+            .replace(/\n[ \t]+/g, '');
+
+        try {
+            const parsed = parse(flattened);
+            fs.writeFileSync(filePath, JSON.stringify(parsed, null, 2));
+            console.log(`✔ Fixed (flattened): ${filePath}`);
+        } catch (e2) {
+            console.warn(`✖ Failed to parse: ${filePath}`, (e2 as Error).message);
+        }
     }
 }
 
