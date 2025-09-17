@@ -38,7 +38,7 @@
   {
     "name": "Herbarium",
     "modid": "herbarium",
-    "version": "1.4.0"
+    "version": "1.4.1-rc.1"
   },
   {
     "name": "Wildcraft Fruits and Nuts",
@@ -104,7 +104,7 @@
   {
     "name": "Toolsmith",
     "modid": "toolsmith",
-    "version": "1.2.7"
+    "version": "1.2.8"
   },
   {
     "name": "Smithing Plus",
