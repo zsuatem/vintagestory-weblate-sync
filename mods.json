@@ -8,7 +8,7 @@
   {
     "name": "Food Shelves",
     "modid": "foodshelves",
-    "version": "2.3.0"
+    "version": "2.3.1"
   },
   {
     "name": "Purposeful Storage",
@@ -73,7 +73,7 @@
   {
     "name": "ImGui",
     "modid": "vsimgui",
-    "version": "1.1.13"
+    "version": "1.1.14"
   },
   {
     "name": "Workbench Expansion Patch",
@@ -129,7 +129,7 @@
   {
     "name": "Butchering",
     "modid": "butchering",
-    "version": "1.10.5"
+    "version": "1.10.6"
   },
   {
     "name": "Expanded Matter",
