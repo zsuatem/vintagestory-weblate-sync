@@ -168,5 +168,10 @@
     "name": "Explosives",
     "modid": "explosive",
     "version": "0.1.2"
+  },
+  {
+    "name": "All Classes",
+    "modid": "allclasses",
+    "version": ""
   }
 ]
