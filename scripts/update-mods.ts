@@ -7,7 +7,6 @@ import * as semver from "semver";
 interface ModEntry {
     name: string;
     modid: string;
-    customPath?: string;
     version?: string;
 }
 
@@ -68,22 +67,26 @@ async function main() {
         const zip = new AdmZip(Buffer.from(zipBuffer));
         const entries = zip.getEntries();
 
-        const customFolder = mod.customPath ?? mod.modid;
-        const expectedPath = `assets/${customFolder}/lang/en.json`.toLowerCase();
-        const matches = entries.filter((e: typeof entries[0]) => e.entryName.toLowerCase() === expectedPath);
-
-        if (matches.length !== 1) {
-            console.error(`❌ ${mod.name}: Found ${matches.length} matching files for ${expectedPath}`);
+        const langFiles = entries.filter(e => e.entryName.toLowerCase().endsWith("/lang/en.json"));
+        if (langFiles.length === 0) {
+            console.warn(`⚠️ No lang/en.json found in ${mod.name}`);
             continue;
         }
 
-        const enJson = matches[0].getData().toString("utf-8");
+        // Clear mod folder before reimport
         const modFolder = path.join(MODS_DIR, mod.name);
-        fs.mkdirSync(modFolder, { recursive: true });
-        fs.writeFileSync(path.join(modFolder, "en.json"), enJson);
+        fs.rmSync(modFolder, { recursive: true, force: true });
+
+        for (const entry of langFiles) {
+            const relativePath = entry.entryName;
+            const fullPath = path.join(modFolder, relativePath);
+            fs.mkdirSync(path.dirname(fullPath), { recursive: true });
+            fs.writeFileSync(fullPath, entry.getData());
+            console.log(`✔ Extracted: ${relativePath}`);
+        }
+
         mod.version = latestVersion;
         updated = true;
-
         const fromVer = currentVersion ?? "none";
         updatedMods.push(`- ${mod.name}: ${fromVer} → ${latestVersion}`);
 
