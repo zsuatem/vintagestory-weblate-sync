@@ -1,17 +1,1 @@
-{
-    "shearlib:shearable": "",
-    "shearlib:shearablefull": "",
-    "shearlib:insufficientgen": "",
-    "shearlib:hoursuntilshearable": "",
-    "shearlib:daysuntilshearable": "",
-    "shearlib:daysmaxwool": "",
-    "shearlib:hoursmaxwool": "",
-    "shearlib:dayswaitmaxwool": "",
-    "shearlib:hourswaitmaxwool": "",
-    "shearlib:shearsbonus": "",
-    "shearlib:animaltoostressedclient": "",
-    "shearlib:animaltoowildclient": "",
-    "shearlib:animalinsufficientwoolclient": "",
-    "shearlib:dropnotfound": "",
-    "shearlib:dropsecondnotfound": ""
-}
+{}
