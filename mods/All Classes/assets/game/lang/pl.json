@@ -1,4 +1,15 @@
 {
     "characterclass-alchemyst": "Alchemik",
-    "characterclass-artisan": "Rzemieślnik"
+    "characterclass-artisan": "Rzemieślnik",
+    "characterclass-chef": "Kuchmistrz",
+    "characterclass-homesteader": "Osadnik",
+    "characterclass-lumberjack": "Drwal",
+    "characterclass-mason": "Kamienarz",
+    "characterclass-merchant": "Kupiec",
+    "characterclass-miner": "Górnik",
+    "characterclass-mystic": "Mistyk",
+    "characterclass-ranger": "Leśnik",
+    "characterclass-smith": "Kowal",
+    "characterclass-medic": "Medyk",
+    "characterclass-tinker": "Majsterkowicz"
 }
