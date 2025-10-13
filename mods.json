@@ -177,7 +177,7 @@
   {
     "name": "Cartographer",
     "modid": "nbcartographer",
-    "version": ""
+    "version": "2.2.1"
   },
   {
     "name": "Pack Your Shovel",
@@ -187,46 +187,46 @@
   {
     "name": "Xandus Inventory Tweaks",
     "modid": "xinvtweaks",
-    "version": ""
+    "version": "1.8.1"
   },
   {
     "name": "Pet AI",
     "modid": "petai",
-    "version": ""
+    "version": "4.0.1"
   },
   {
     "name": "Wolf Taming",
     "modid": "wolftaming",
-    "version": ""
+    "version": "4.0.1"
   },
   {
     "name": "Cats",
     "modid": "cats",
-    "version": ""
+    "version": "4.0.0"
   },
   {
     "name": "Fox Taming",
     "modid": "foxtaming",
-    "version": ""
+    "version": "1.7.2"
   },
   {
     "name": "Feverstone's Horses",
     "modid": "feverstonehorses",
-    "version": ""
+    "version": "2.0.7"
   },
   {
     "name": "A Panserbjørn Story",
     "modid": "apanserbjornstory",
-    "version": ""
+    "version": "0.10.2"
   },
   {
     "name": "Pet Hare",
     "modid": "harepet",
-    "version": ""
+    "version": "1.3.1"
   },
   {
     "name": "Locust Taming",
     "modid": "tameablelocusts",
-    "version": ""
+    "version": "1.0.3"
   }
 ]
