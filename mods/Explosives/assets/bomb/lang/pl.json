@@ -1,1 +1,23 @@
-{}
+{
+    "game:tabname-bomb": "Explosives",
+    "block-reedshrapnelbomb": "Trzcinowa bomba odłamkowa",
+    "block-potbomb": "Bomba ceramiczna",
+    "block-stonebomb": "Ładunek kamieniarski",
+    "block-brickbomb": "Bomba odłamkowa",
+    "block-brickbomb2": "Bomba odłamkowa",
+    "block-brickbomb3": "Bomba odłamkowa",
+    "block-orebarrel": "Ładunek górniczy w beczce",
+    "block-stonebarrel": "Ładunek kamieniarski w beczce",
+    "blockdesc-reedshrapnelbomb": "Słaby ładunek wybuchowy, idealny do wywoływania reakcji łańcuchowych.",
+    "blockdesc-potbomb": "Ceramiczna skorupa i mała objętość tworzą kontrolowany wybuch, który łatwo przebija się nawet przez najtwardszą skałę.",
+    "blockdesc-stonebomb": "Narzędzie pracy górnika. Większa ilość prochu zwiększa siłę wybuchu, umożliwiając skuteczniejsze kruszenie skał.",
+    "blockdesc-brickbomb": "Kiedyś tworzenie takich rzeczy było surowo karane. Teraz to skuteczny sposób na szybkie unicestwienie wielu wrogów.",
+    "blockdesc-brickbomb2": "Kiedyś tworzenie takich rzeczy było surowo karane. Teraz to skuteczny sposób na szybkie unicestwienie wielu wrogów.",
+    "blockdesc-brickbomb3": "Kiedyś tworzenie takich rzeczy było surowo karane. Teraz to skuteczny sposób na szybkie unicestwienie wielu wrogów.",
+    "blockdesc-orebarrel": "Arcydzieło sztuki górniczej, pozostawiające po sobie stertę rud dokładnie skruszonych falą uderzeniową.",
+    "blockdesc-stonebarrel": "Tak niebezpieczne rzeczy dawniej tworzyło jedynie wojsko lub najbardziej doświadczone gildie górnicze. Ich ogromna moc w pełni rekompensuje wysoki koszt.",
+    "item-flint-firestarter": "Krzesiwo",
+    "item-firepart": "Krzesiwo (część)",
+    "itemdesc-flint-firestarter": "Proste narzędzie do rozpalania ognia.",
+    "itemdesc-firepart": "Metalowy element zdolny wytworzyć iskrę przy uderzeniu o twardą powierzchnię."
+}

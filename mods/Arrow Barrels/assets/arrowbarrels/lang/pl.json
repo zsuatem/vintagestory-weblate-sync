@@ -1,1 +1,16 @@
-{}
+{
+    "arrowbarrels:block-wood-aged-arrowbarrel": "Wiekowa beczka na strzały",
+    "arrowbarrels:block-wood-birch-arrowbarrel": "Brzozowa beczka na strzały",
+    "arrowbarrels:block-wood-oak-arrowbarrel": "Dębowa beczka na strzały",
+    "arrowbarrels:block-wood-maple-arrowbarrel": "Klonowa beczka na strzały",
+    "arrowbarrels:block-wood-pine-arrowbarrel": "Sosnowa beczka na strzały",
+    "arrowbarrels:block-wood-acacia-arrowbarrel": "Akacjowa beczka na strzały",
+    "arrowbarrels:block-wood-kapok-arrowbarrel": "Kapokowa beczka na strzały",
+    "arrowbarrels:block-wood-baldcypress-arrowbarrel": "Beczka na strzały z cypryśnika błotnego",
+    "arrowbarrels:block-wood-larch-arrowbarrel": "Modrzewiowa beczka na strzały",
+    "arrowbarrels:block-wood-redwood-arrowbarrel": "Sekwojowa beczka na strzały",
+    "arrowbarrels:block-wood-ebony-arrowbarrel": "Hebanowa beczka na strzały",
+    "arrowbarrels:block-wood-walnut-arrowbarrel": "Beczka na strzały z orzecha włoskiego",
+    "arrowbarrels:block-wood-purpleheart-arrowbarrel": "Beczka na strzały z amarantu",
+    "arrowbarrels:block-wood-*-arrowbarrel": "Beczka na strzały"
+}

@@ -1,1 +1,5 @@
-{}
+{
+    "realsmoke:Config.Setting.Enabled": "Włącz RealSmoke",
+    "realsmoke:realsmokeguide-title": "Real Smoke",
+    "realsmoke:realsmokeguide-text": "<strong>Real Smoke</strong><br><br>Dym powstaje podczas spalania wielu rodzajów paliwa, niektóre z nich wytwarzają go naprawdę dużo. Ogień potrzebuje dopływu powietrza, aby płonął a jeśli nie ma ujścia dymu może szybko zgasnąć. W zależności od rodzaju ognia dym może unosić się w górę lub w bok.<br><br>Im wyższa temperatura ognia, tym gorętszy dym. Jego wygląd odzwierciedla zarówno temperaturę, jak i ilość. Gorący dym unosi się do góry, a na zewnątrz rozprasza się znacznie szybciej. Dodatkowo jego kierunek zależy od wiatru.<br><br>Bez odpowiedniej wentylacji dym może wypełnić pomieszczenie i zdusić ogień. Może on się wydostawać przez <a href=\"handbook://block-claybrickchimney-four-red-ns\">kominy</a>. Jeśli ogień nie może odprowadzić dymu bezpośrednio w górę z powodu przeszkody, spróbuje skierować go do najbliższego komina, o ile znajduje się on tuż obok lub nad źródłem ognia. Prawidłowy przewód kominowy składa się z niepełnych bloków o wysokości do 16 (wartość można zmienić w konfiguracji) i powinien być zakończony blokiem komina. Podczas rzeźbienia pamiętaj, że dym nie przejdzie przez otwory mniejsze niż 2x2."
+}

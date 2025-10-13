@@ -1,1 +1,24 @@
-{}
+{
+    "slowtox:Config.Setting.Enabled": "Włącz działanie systemu zatruć SlowTox",
+    "slowtox:Config.Setting.CommandsAllowed": "Zezwól na używanie komend /tox",
+    "slowtox:Config.Setting.IntoxicationSpeed": "Ogólna szybkość przetwarzania środków odurzających",
+    "slowtox:Config.Setting.IntakeRate": "Tempo narastania odurzenia (parametr precyzyjnie dostrojony, zaleca się regulować IntoxicationSpeed)",
+    "slowtox:Config.Setting.DecayRate": "Tempo zanikania odurzenia (parametr precyzyjnie dostrojony, zaleca się regulować IntoxicationSpeed)",
+    "slowtox:Config.Setting.OverintoxicationThreshold": "Próg, po którego przekroczeniu odurzenie powoduje otrzymywanie obrażeń",
+    "slowtox:Config.Setting.HealthRegenIntoxRangeBottom": "Próg, od którego zapewniana jest regeneracja zdrowia",
+    "slowtox:Config.Setting.HealthRegenIntoxRangeTop": "Próg, po którego przekroczeniu regeneracja zdrowia ustaje",
+    "slowtox:Config.Setting.HealthRegenRateMax": "Maksymalna szybkość regeneracji zdrowia zapewniana przez odurzenie",
+    "slowtox:Config.Setting.StabilityRegenIntoxRangeBottom": "Próg, od którego zapewniana jest regeneracja stabilności",
+    "slowtox:Config.Setting.StabilityRegenIntoxRangeTop": "Próg, po którego przekroczeniu regeneracja stabilności ustaje",
+    "slowtox:Config.Setting.StabilityRegenRateMax": "Maksymalna szybkość regeneracji stabilności zapewniana przez odurzenie",
+    "slowtox:Config.Setting.StrengthBonusMultiplierIntoxRangeBottom": "Próg, od którego przyznawany jest bonus do siły",
+    "slowtox:Config.Setting.StrengthBonusMultiplierIntoxRangeTop": "Próg, po którego przekroczeniu bonus do siły przestaje działać",
+    "slowtox:Config.Setting.StrengthBonusMultiplierMax": "Maksymalny bonus do siły uzyskiwany dzięki odurzeniu",
+    "slowtox:Config.Setting.DamageReductionIntoxRangeBottom": "Próg, od którego przyznawana jest redukcja obrażeń",
+    "slowtox:Config.Setting.DamageReductionIntoxRangeTop": "Próg, po którego przekroczeniu redukcja obrażeń ustaje",
+    "slowtox:Config.Setting.DamageReductionMax": "Maksymalna redukcja obrażeń, jaką może zapewnić odurzenie",
+    "slowtox:Config.Setting.IgnoreSmallDamageChanceMax": "Maksymalna szansa na zignorowanie niewielkich obrażeń",
+    "slowtox:Config.Setting.WalkSpeedPenaltyIntoxBeginApply": "Poziom odurzenia, przy którym zaczyna obowiązywać kara do prędkości chodzenia",
+    "slowtox:Config.Setting.WalkSpeedPenaltyIntoxFullApply": "Poziom odurzenia, przy którym kara do prędkości chodzenia jest maksymalna",
+    "slowtox:Config.Setting.WalkSpeedPenaltyMax": "Maksymalna kara do prędkości chodzenia wynikająca z odurzenia"
+}
