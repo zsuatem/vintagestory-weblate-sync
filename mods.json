@@ -173,5 +173,60 @@
     "name": "All Classes",
     "modid": "allclasses",
     "version": "2.0.6"
+  },
+  {
+    "name": "Cartographer",
+    "modid": "nbcartographer",
+    "version": ""
+  },
+  {
+    "name": "Pack Your Shovel",
+    "modid": "packyourshovel",
+    "version": ""
+  },
+  {
+    "name": "Xandus Inventory Tweaks",
+    "modid": "xinvtweaks",
+    "version": ""
+  },
+  {
+    "name": "Pet AI",
+    "modid": "petai",
+    "version": ""
+  },
+  {
+    "name": "Wolf Taming",
+    "modid": "wolftaming",
+    "version": ""
+  },
+  {
+    "name": "Cats",
+    "modid": "cats",
+    "version": ""
+  },
+  {
+    "name": "Fox Taming",
+    "modid": "foxtaming",
+    "version": ""
+  },
+  {
+    "name": "Feverstone's Horses",
+    "modid": "feverstonehorses",
+    "version": ""
+  },
+  {
+    "name": "A Panserbjørn Story",
+    "modid": "apanserbjornstory",
+    "version": ""
+  },
+  {
+    "name": "Pet Hare",
+    "modid": "harepet",
+    "version": ""
+  },
+  {
+    "name": "Locust Taming",
+    "modid": "tameablelocusts",
+    "version": ""
   }
 ]
