@@ -3,11 +3,13 @@
   "dressmakers:setting_enable_common_clothing": "Common clothing",
   "dressmakers:setting_enable_class_clothing": "Class-specific clothing",
   "dressmakers:setting_enable_nadiyan_clothing": "Nadiyan clothing",
-  "dressmakers:setting_enable_wool": "Wool & More",
+  "dressmakers:setting_enable_wool": "Wool & More recipe alternatives",
+  "dressmakers:setting_enable_nadiyan_wool": "Wool & More Nadiyan recipe alternatives",
   "dressmakers:setting_enable_common_clothing_comment": "Enable recipes for common VS vanilla clothing items",
   "dressmakers:setting_enable_class_clothing_comment": "Enable recipes for class-specific VS vanilla clothing items",
   "dressmakers:setting_enable_nadiyan_clothing_comment": "Enable recipes for VS Nadiyan clothing items",
-  "dressmakers:setting_enable_wool_comment": "Add some recipe alternatives using wool",
+  "dressmakers:setting_enable_nadiyan_wool_comment": "Add some VS Nadiyan recipe alternatives using wool",
+  "dressmakers:setting_enable_wool_comment": "Add some VS recipe alternatives using wool",
   "dressmakers:settings_title_clothing_recipes": "Dressmakers recipes for VS vanilla clothing",
   "dressmakers:settings_title_mod_recipes": "Compatibility with other mods"
 }
