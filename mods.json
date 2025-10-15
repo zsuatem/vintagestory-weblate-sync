@@ -87,7 +87,7 @@
   {
     "name": "SlowTox",
     "modid": "slowtox",
-    "version": "3.0.1"
+    "version": "3.0.3"
   },
   {
     "name": "Real Smoke",
@@ -212,7 +212,7 @@
   {
     "name": "Feverstone's Horses",
     "modid": "feverstonehorses",
-    "version": "2.0.7"
+    "version": "2.0.8"
   },
   {
     "name": "A Panserbjørn Story",
@@ -232,11 +232,11 @@
   {
     "name": "Geology Additions",
     "modid": "geoaddons",
-    "version": ""
+    "version": "1.4.4"
   },
   {
     "name": "Some Disassembly Required",
     "modid": "somedisassemblyrequired",
-    "version": ""
+    "version": "1.7.8"
   }
 ]
