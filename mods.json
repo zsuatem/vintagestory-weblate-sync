@@ -228,5 +228,15 @@
     "name": "Locust Taming",
     "modid": "tameablelocusts",
     "version": "1.0.3"
+  },
+  {
+    "name": "Geology Additions",
+    "modid": "geoaddons",
+    "version": ""
+  },
+  {
+    "name": "Some Disassembly Required",
+    "modid": "somedisassemblyrequired",
+    "version": ""
   }
 ]
