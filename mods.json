@@ -57,12 +57,12 @@
   {
     "name": "A Culinary Artillery",
     "modid": "aculinaryartillery",
-    "version": "1.2.5"
+    "version": "2.0.0-dev.2"
   },
   {
     "name": "Expanded Foods",
     "modid": "expandedfoods",
-    "version": "1.7.4"
+    "version": "2.0.0-dev.1"
   },
   {
     "name": "PlayerList",
@@ -92,7 +92,7 @@
   {
     "name": "Real Smoke",
     "modid": "realsmoke",
-    "version": "1.1.8"
+    "version": "1.1.9"
   },
   {
     "name": "Lathe Mod",
