@@ -242,107 +242,107 @@
   {
     "name": "At Waters Edge",
     "modid": "atwatersedge",
-    "version": ""
+    "version": "1.5.1"
   },
   {
     "name": "Aluminum from bauxite",
     "modid": "bauxitealuminum",
-    "version": ""
+    "version": "1.1.2"
   },
   {
     "name": "Improved Ladders",
     "modid": "bradyladder",
-    "version": ""
+    "version": "1.1.0"
   },
   {
     "name": "Brain Freeze",
     "modid": "brainfreeze",
-    "version": ""
+    "version": "1.3.1"
   },
   {
     "name": "Cartwright's Caravan",
     "modid": "cartwrightscaravan",
-    "version": ""
+    "version": "1.7.3"
   },
   {
     "name": "Craftable Cartography Fork",
     "modid": "craftablecartographyfork",
-    "version": ""
+    "version": "0.1.8"
   },
   {
     "name": "Enhanced Handbook",
     "modid": "enhancedhandbook",
-    "version": ""
+    "version": "1.7.0"
   },
   {
     "name": "Expanded Stomach",
     "modid": "expandedstomach",
-    "version": ""
+    "version": "1.2.6"
   },
   {
     "name": "Salty's Firestarters",
     "modid": "firestarters",
-    "version": ""
+    "version": "1.4.5"
   },
   {
     "name": "Gourmand",
     "modid": "gourmand",
-    "version": ""
+    "version": "1.7.9"
   },
   {
     "name": "Hydrate or Diedrate",
     "modid": "hydrateordiedrate",
-    "version": ""
+    "version": "2.2.24"
   },
   {
     "name": "Immersive Rope Crafting",
     "modid": "immersiverope",
-    "version": ""
+    "version": "1.0.6"
   },
   {
     "name": "In Dappled Groves",
     "modid": "indappledgroves",
-    "version": ""
+    "version": "2.2.1-rc.1"
   },
   {
     "name": "Jack's Composting",
     "modid": "jackscomposting",
-    "version": ""
+    "version": "1.2.1"
   },
   {
     "name": "Japanese Architecture",
     "modid": "japanesearchitecture",
-    "version": ""
+    "version": "0.9.4"
   },
   {
     "name": "Jaunt Entity Movement System",
     "modid": "jaunt",
-    "version": ""
+    "version": "2.1.1"
   },
   {
     "name": "Helve Axe addon for In dappled Groves",
     "modid": "mechanicalwoodsplitter",
-    "version": ""
+    "version": "1.1.2"
   },
   {
     "name": "Rebuildable Bloomery",
     "modid": "rebuildablebloomery",
-    "version": ""
+    "version": "1.0.4"
   },
   {
     "name": "Rotting Storage",
     "modid": "rottingstorage",
-    "version": ""
+    "version": "1.0.2"
   },
   {
     "name": "Simple Map Markers",
     "modid": "simplemapicons",
-    "version": ""
+    "version": "3.0.0"
   },
   {
     "name": "Snowshoes",
     "modid": "snowshoes",
-    "version": ""
+    "version": "2.1.3"
   },
   {
     "name": "Vigor",
@@ -352,21 +352,21 @@
   {
     "name": "WaySearchPoint",
     "modid": "waysearchpoint",
-    "version": ""
+    "version": "1.0.2"
   },
   {
     "name": "Wear And Tear",
     "modid": "wearandtear",
-    "version": ""
+    "version": "1.5.16"
   },
   {
     "name": "Wind Chimes",
     "modid": "windchimes",
-    "version": ""
+    "version": "1.4.1"
   },
   {
     "name": "Wilderlands Waymarkers",
     "modid": "wwaymarkers",
-    "version": ""
+    "version": "1.0.2"
   }
 ]

@@ -1,0 +1,22 @@
+{
+  "liquid-frozen": "Liquid is frozen",
+  "consumable-frozen": "Too frozen to consume",
+  "transition-freeze": "<font color=\"burlywood\">Freezable.</font>",
+  "transition-freeze-progression": "<font color=\"burlywood\">Freezable.</font> {0}% frozen",
+  "transition-freeze-duration-hours": "Will <font color=\"burlywood\">freeze</font> in {p0:less than an hour|# hour|# hours}",
+  "transition-freeze-duration-days": "Will <font color=\"burlywood\">freeze</font> in {p0:less than a day|# day|# days}",
+  "transition-freeze-duration-years": "Will <font color=\"burlywood\">freeze</font> in {p0:less than a year|# year|# years}",
+  "transition-freeze-handbook": "Freezes into",
+  "transition-melt": "<font color=\"burlywood\">Meltable.</font>",
+  "transition-melt-progression": "<font color=\"burlywood\">Meltable.</font> {0}% melted",
+  "transition-melt-duration-hours": "Will <font color=\"burlywood\">melt</font> in {p0:less than an hour|# hour|# hours}",
+  "transition-melt-duration-days": "Will <font color=\"burlywood\">melt</font> in {p0:less than a day|# day|# days}",
+  "transition-melt-duration-years": "Will <font color=\"burlywood\">melt</font> in {p0:less than a year|# year|# years}",
+  "transition-melt-handbook": "Melts into",
+  "game:tabname-brainfreeze": "Brain Freeze",
+  "break-ice": "Turn into Ice Cubes",
+  "frozen": "Frozen",
+  "item-icecubes": "Ice Cubes",
+  "icecubes-dynamicdesc": "Made by chiseling {0} into small pieces",
+  "icecubes-dye-*": "How colorful!"
+}

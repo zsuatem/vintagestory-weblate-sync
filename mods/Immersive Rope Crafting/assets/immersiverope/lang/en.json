@@ -1,0 +1,12 @@
+{
+  "immersiverope:blockhelp-unfinishedrope-addfiber": "Add Fiber Item",
+  "immersiverope:blockhelp-unfinishedrope-addfiberx5": "Add Fiber Item x 5",
+  "immersiverope:blockhelp-loosestone-beginropecrafting": "Begin Braiding Rope",
+  "immersiverope:blockhelp-unfinishedrope-braidrope": "Braid Rope (Faster if Sitting Down)",
+  "immersiverope:block-unfinishedrope-*": "Unfinished Rope",
+  "immersiverope:error-invalidfibersource": "This item is not a valid source of fiber!",
+  "immersiverope:error-notemptyhanded": "You must have nothing in both your hands to braid rope!",
+  "immersiverope:error-notenoughfiber": "You dont have enough fiber to continue braiding rope. Add more!",
+  "immersiverope:manualropecrafting_title": "Immersive Rope Crafting",
+  "immersiverope:manualropecrafting_text": "You can create rope by braiding it in world! To do this shift-right click a loose stone on the ground with a viable source of fiber (hover over a loose stone to see what items you can use). You can then hold right click with an empty hand and offhand to braid the rope as long as theres enough fiber on the unfinished rope to do it. Once you braid it enough times a finished rope item should be created."
+}

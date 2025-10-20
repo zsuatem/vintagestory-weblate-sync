@@ -1,0 +1,13 @@
+{
+  "item-vegetable-cookedhalvedcattailroot": "Cooked Halved Wild Rhizome Root",
+  "item-halvedcattailroot": "Halved Cattail Root",
+  "item-halvedpapyrusroot": "Halved Papyrus Root",
+  "item-halvedtuleroot": "Halved Tule Root",
+  "block-tallplant-coopersreed-land-growing-free": "Sprouting Cooper's Reed",
+  "block-tallplant-coopersreed-ice-growing-free": "Sprouting Cooper's Reed",
+  "block-tallplant-papyrus-land-growing-free": "Sprouting Papyrus",
+  "block-tallplant-papyrus-ice-growing-free": "Sprouting Papyrus",
+  "block-tallplant-tule-land-growing-free": "Sprouting Tule",
+  "block-tallplant-tule-ice-growing-free": "Sprouting Tule",
+  "blockhelp-growing-reeds-harvest": "Cannot be harvested"
+}
