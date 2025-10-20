@@ -1,5 +1,6 @@
 {
   "rebuildablebloomery:blockhelp-destroyedbloomery-brick": "Add 1 brick",
   "rebuildablebloomery:blockhelp-bloomery-brickx5": "Add 5 bricks",
-  "rebuildablebloomery:block-destroyedbloomery-*": "Broken Bloomery"
+  "rebuildablebloomery:block-destroyedbloomery-*": "Broken Bloomery",
+  "rebuildablebloomery:block-destroyedbloomery-missingbricks": "Missing Bricks: "
 }
