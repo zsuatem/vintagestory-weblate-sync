@@ -1,0 +1,21 @@
+{
+    "debug-stamina-init": "",
+    "debug-rideable-init": "",
+    "ingame-error-too-wild": "",
+    "ingame-error-no-entitysel": "",
+    "ingame-error-disallowed-entity": "",
+    "discovery-bound-entity": "",
+    "infotext-stamina-state": "",
+    "infotext-stamina-sprint-fatigue": "",
+    "infotext-stamina-swim-fatigue": "",
+    "infotext-saddlebreaks-remaining": "",
+    "jaunt:infotext-saddlebreak-cooldown-days": "",
+    "jaunt:infotext-saddlebreak-cooldown-hours": "",
+    "jaunt:infotext-saddlebreak-ready": "",
+    "instrument-skill-bind": "",
+    "instrument-skill-play": "",
+    "groupcode-unbound": "",
+    "instrument-descappend-unbound": "",
+    "instrument-descappend-bound": "",
+    "item-instrument-flute": ""
+}

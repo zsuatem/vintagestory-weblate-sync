@@ -1,0 +1,22 @@
+{
+    "item-primitivecompass-*": "",
+    "itemdesc-primitivecompass-*": "",
+    "item-compass-*": "",
+    "itemdesc-compass-*": "",
+    "item-sextant-*": "",
+    "itemdesc-sextant-*": "",
+    "CoordinatesMode": "",
+    "PitchMode": "",
+    "Pitch: {0:0.#}°": "",
+    "item-map": "",
+    "itemdesc-map": "",
+    "item-compasstemporal-*": "",
+    "itemdesc-compasstemporal-*": "",
+    "item-jps": "",
+    "itemdesc-jps": "",
+    "ingameerror-jps-full": "",
+    "Has fuel for {0} days and {1:0.#} hours": "",
+    "item-compassframe-*": "",
+    "item-sextantparts-*": "",
+    "game:tabname-navigation": ""
+}

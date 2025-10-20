@@ -1,0 +1,22 @@
+{
+    "liquid-frozen": "",
+    "consumable-frozen": "",
+    "transition-freeze": "",
+    "transition-freeze-progression": "",
+    "transition-freeze-duration-hours": "",
+    "transition-freeze-duration-days": "",
+    "transition-freeze-duration-years": "",
+    "transition-freeze-handbook": "",
+    "transition-melt": "",
+    "transition-melt-progression": "",
+    "transition-melt-duration-hours": "",
+    "transition-melt-duration-days": "",
+    "transition-melt-duration-years": "",
+    "transition-melt-handbook": "",
+    "game:tabname-brainfreeze": "",
+    "break-ice": "",
+    "frozen": "",
+    "item-icecubes": "",
+    "icecubes-dynamicdesc": "",
+    "icecubes-dye-*": ""
+}
