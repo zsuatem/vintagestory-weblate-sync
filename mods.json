@@ -238,5 +238,135 @@
     "name": "Some Disassembly Required",
     "modid": "somedisassemblyrequired",
     "version": "1.7.8"
+  },
+  {
+    "name": "At Waters Edge",
+    "modid": "atwatersedge",
+    "version": ""
+  },
+  {
+    "name": "Aluminum from bauxite",
+    "modid": "bauxitealuminum",
+    "version": ""
+  },
+  {
+    "name": "Improved Ladders",
+    "modid": "bradyladder",
+    "version": ""
+  },
+  {
+    "name": "Brain Freeze",
+    "modid": "brainfreeze",
+    "version": ""
+  },
+  {
+    "name": "Cartwright's Caravan",
+    "modid": "cartwrightscaravan",
+    "version": ""
+  },
+  {
+    "name": "Craftable Cartography Fork",
+    "modid": "craftablecartographyfork",
+    "version": ""
+  },
+  {
+    "name": "Enhanced Handbook",
+    "modid": "enhancedhandbook",
+    "version": ""
+  },
+  {
+    "name": "Expanded Stomach",
+    "modid": "expandedstomach",
+    "version": ""
+  },
+  {
+    "name": "Salty's Firestarters",
+    "modid": "firestarters",
+    "version": ""
+  },
+  {
+    "name": "Gourmand",
+    "modid": "gourmand",
+    "version": ""
+  },
+  {
+    "name": "Hydrate or Diedrate",
+    "modid": "hydrateordiedrate",
+    "version": ""
+  },
+  {
+    "name": "Immersive Rope Crafting",
+    "modid": "immersiverope",
+    "version": ""
+  },
+  {
+    "name": "In Dappled Groves",
+    "modid": "indappledgroves",
+    "version": ""
+  },
+  {
+    "name": "Jack's Composting",
+    "modid": "jackscomposting",
+    "version": ""
+  },
+  {
+    "name": "Japanese Architecture",
+    "modid": "japanesearchitecture",
+    "version": ""
+  },
+  {
+    "name": "Jaunt Entity Movement System",
+    "modid": "jaunt",
+    "version": ""
+  },
+  {
+    "name": "Helve Axe addon for In dappled Groves",
+    "modid": "mechanicalwoodsplitter",
+    "version": ""
+  },
+  {
+    "name": "Rebuildable Bloomery",
+    "modid": "rebuildablebloomery",
+    "version": ""
+  },
+  {
+    "name": "Rotting Storage",
+    "modid": "rottingstorage",
+    "version": ""
+  },
+  {
+    "name": "Simple Map Markers",
+    "modid": "simplemapicons",
+    "version": ""
+  },
+  {
+    "name": "Snowshoes",
+    "modid": "snowshoes",
+    "version": ""
+  },
+  {
+    "name": "Vigor",
+    "modid": "vigor",
+    "version": ""
+  },
+  {
+    "name": "WaySearchPoint",
+    "modid": "waysearchpoint",
+    "version": ""
+  },
+  {
+    "name": "Wear And Tear",
+    "modid": "wearandtear",
+    "version": ""
+  },
+  {
+    "name": "Wind Chimes",
+    "modid": "windchimes",
+    "version": ""
+  },
+  {
+    "name": "Wilderlands Waymarkers",
+    "modid": "wwaymarkers",
+    "version": ""
   }
 ]
