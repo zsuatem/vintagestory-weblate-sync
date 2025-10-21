@@ -4,6 +4,8 @@
   "immersiverope:blockhelp-loosestone-beginropecrafting": "Begin Braiding Rope",
   "immersiverope:blockhelp-unfinishedrope-braidrope": "Braid Rope (Faster if Sitting Down)",
   "immersiverope:block-unfinishedrope-*": "Unfinished Rope",
+  "immersiverope:block-unfinishedrope-fiberamount": "Available Fiber: ",
+  "immersiverope:block-unfinishedrope-workdone": "Work Done: ",
   "immersiverope:error-invalidfibersource": "This item is not a valid source of fiber!",
   "immersiverope:error-notemptyhanded": "You must have nothing in both your hands to braid rope!",
   "immersiverope:error-notenoughfiber": "You dont have enough fiber to continue braiding rope. Add more!",
