@@ -212,7 +212,7 @@
   {
     "name": "Feverstone's Horses",
     "modid": "feverstonehorses",
-    "version": "2.0.10"
+    "version": "2.0.11-rc.1"
   },
   {
     "name": "A Panserbjørn Story",
@@ -272,7 +272,7 @@
   {
     "name": "Enhanced Handbook",
     "modid": "enhancedhandbook",
-    "version": "1.7.0"
+    "version": "1.7.1"
   },
   {
     "name": "Expanded Stomach",
@@ -327,7 +327,7 @@
   {
     "name": "Rebuildable Bloomery",
     "modid": "rebuildablebloomery",
-    "version": "1.0.5"
+    "version": "1.0.6"
   },
   {
     "name": "Rotting Storage",
