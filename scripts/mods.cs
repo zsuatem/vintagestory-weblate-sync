@@ -415,11 +415,11 @@ string ComputeJsonHash(NJson.Linq.JObject json)
     return Convert.ToHexString(hashBytes).ToLowerInvariant();
 }
 
-void BuildModPack(string? versionArg)
+void BuildModPack(string? versionArg, bool saveHistory = true)
 {
     if (string.IsNullOrWhiteSpace(versionArg))
     {
-        Log("❌ Usage: dotnet mods.cs build <version>", ConsoleColor.Red);
+        Log("❌ Usage: dotnet mods.cs build <version> [--no-history]", ConsoleColor.Red);
         return;
     }
 
@@ -607,7 +607,14 @@ void BuildModPack(string? versionArg)
         Log($"⚠️  Failed to remove build folder: {ex.Message}", ConsoleColor.DarkYellow);
     }
 
-    SaveBuildHistory(version, completeMods, distDir);
+    if (saveHistory)
+    {
+        SaveBuildHistory(version, completeMods, distDir);
+    }
+    else
+    {
+        Log($"⚠️  Build history not saved (--no-history)", ConsoleColor.DarkYellow);
+    }
 
     Log($"\n✅ Built pack: {zipPath}", ConsoleColor.Green);
     Log($"📝 Changelog: {changelogFilePath}", ConsoleColor.Gray);
@@ -826,13 +833,15 @@ switch (cmd)
         await UpdateMods();
         break;
     case "build":
-        BuildModPack(args.Length > 1 ? args[1] : null);
+        var version = args.Length > 1 ? args[1] : null;
+        var noHistory = args.Contains("--no-history");
+        BuildModPack(version, saveHistory: !noHistory);
         break;
     default:
         Log("Available commands:", ConsoleColor.White);
         Log("  dotnet mods.cs fix", ConsoleColor.Gray);
         Log("  dotnet mods.cs update", ConsoleColor.Gray);
-        Log("  dotnet mods.cs build <version>", ConsoleColor.Gray);
+        Log("  dotnet mods.cs build <version> [--no-history]", ConsoleColor.Gray);
         break;
 }
 
