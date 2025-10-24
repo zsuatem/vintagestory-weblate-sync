@@ -13,22 +13,18 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v4
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v5
         with:
-          node-version: 20
-
-      - name: Install dependencies (if needed)
-        run: |
-          if [ -f package.json ]; then npm install; fi
+          dotnet-version: "10.0.x"
 
       - name: Run update script
         run: |
-          npx ts-node scripts/update-mods.ts
+          dotnet scripts/mods.cs update
 
-      - name: Fix invalid trailing commas in JSON files
+      - name: Fix JSON formatting
         run: |
-          npx ts-node scripts/fix-json.ts
+          dotnet scripts/mods.cs fix
 
       - name: Commit and push changes (if any)
         run: |

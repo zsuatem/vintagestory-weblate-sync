@@ -21,3 +21,5 @@ Thumbs.db
 *.bak
 *.swp
 *~
+
+.idea/
