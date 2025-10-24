@@ -1,506 +1,186 @@
 {
-
-	//"Tool Interactions and Mode Info Listed Below",
   "Chopping": "Chopping",
-	"Sawing": "Sawing",
-	"Planing": "Planing",
-	"Hewing": "Hewing",
-	"Hewing": "Pounding",
-	"itemhelp-axe-chopwood": "To Chop",
+  "Sawing": "Sawing",
+  "Planing": "Planing",
+  "Hewing": "Pounding",
+  "itemhelp-axe-chopwood": "To Chop",
   "itemhelp-saw-sawwood": "To Saw",
-	"itemhelp-adze-hewwood": "To Hew",
-	"itemhelp-tool-planewood": "To Plane",
-	"itemhelp-tool-pound": "To Pound",
-	"toolittledurability": "Your tool requires {0} durability to do this.",
-	"block-board": "Board",
-	"WorkstationTypeNotDesignated": "Workstation {0} does not have workstation type designated in blocktype",
-	"defaultprocessmodifier": "Process Modifier:",
-	"logsplitterprocessor": "Blade Type:",
-	"remainingdurability": "Remaining Durability",
-	"LogSplitterNoBladeError": "Log Splitter Has No Blade",
-	"BladeHeldInSplitter": "Blade Type",
-	"BladeDurability": "Blade Durability",
-	"Empty": "Empty",
-	"recipeprogress": "Recipe Progress",
-	"workstationholding": "Holding",
-	"recipeoutputstack": "Result",
-	"attributetransformcode": "Attribute Transform Code",
-	"inventoryclassname": "Inventory Class Name",
-	"currenttoolmode": "Current Tool Mode",
-	"recipetoolmode": "Recipe ToolMode",
-	"recipeworkstation": "Recipe Workstation",
-	"game:tabname-indappledgroves": "In Dappled Groves",
-	"game:handbook-category-indappledgroves": "In Dappled Groves",
-	"block-logsplitter": "Log Splitter",
-	"indappledgroves:item-handbooktitle-splitterblade": "Log Splitter Blades",
-	"indappledgroves:item-handbooktext-splitterblade": "These blades are used in the log splitter. Slab blades are for making log slabs, and cross blades for making firewood from logs.",
-	"indappledgroves:block-handbooktitle-pan": "Crafting With In-Dappled Groves",
+  "itemhelp-adze-hewwood": "To Hew",
+  "itemhelp-tool-planewood": "To Plane",
+  "itemhelp-tool-pound": "To Pound",
+  "toolittledurability": "Your tool requires {0} durability to do this.",
+  "block-board": "Board",
+  "WorkstationTypeNotDesignated": "Workstation {0} does not have workstation type designated in blocktype",
+  "defaultprocessmodifier": "Process Modifier:",
+  "logsplitterprocessor": "Blade Type:",
+  "remainingdurability": "Remaining Durability",
+  "LogSplitterNoBladeError": "Log Splitter Has No Blade",
+  "BladeHeldInSplitter": "Blade Type",
+  "BladeDurability": "Blade Durability",
+  "Empty": "Empty",
+  "recipeprogress": "Recipe Progress",
+  "workstationholding": "Holding",
+  "recipeoutputstack": "Result",
+  "attributetransformcode": "Attribute Transform Code",
+  "inventoryclassname": "Inventory Class Name",
+  "currenttoolmode": "Current Tool Mode",
+  "recipetoolmode": "Recipe ToolMode",
+  "recipeworkstation": "Recipe Workstation",
+  "game:tabname-indappledgroves": "In Dappled Groves",
+  "game:handbook-category-indappledgroves": "In Dappled Groves",
+  "block-logsplitter": "Log Splitter",
+  "indappledgroves:item-handbooktitle-splitterblade": "Log Splitter Blades",
+  "indappledgroves:item-handbooktext-splitterblade": "These blades are used in the log splitter. Slab blades are for making log slabs, and cross blades for making firewood from logs.",
+  "indappledgroves:block-handbooktitle-pan": "Crafting With In-Dappled Groves",
   "indappledgroves:block-handbooktext-pan": "Start by creating a <a href=\"handbooksearch://log slab\">a debarked log slab</a> and placing it flat on the <a href=\"handbook://inworldcrafting-indappledgroves\">ground</a>. You then use <a href=\"handbook://toolmodes-indappledgroves\">hewing</a> tool to craft it into a wooden pan.",
-	"item-splitterblade-single-tinbronze": "Tin Bronze Slab Blade",
-	"item-splitterblade-single-bismuthbronze": "Bismuth Bronze Slab Blade",
-	"item-splitterblade-single-blackbronze": "Black Bronze Slab Blade",
-	"item-splitterblade-single-iron": "Iron Slab Blade",
-	"item-splitterblade-single-meteoriciron": "Meteoric Iron Slab Blade",
-	"item-splitterblade-single-steel": "Steel Slab Blade",
-	"item-splitterblade-cross-tinbronze": "Tin Bronze Cross Blade",
-	"item-splitterblade-cross-bismuthbronze": "Bismuth Bronze Cross Blade",
-	"item-splitterblade-cross-blackbronze": "Black Bronze Cross Blade",
-	"item-splitterblade-cross-iron": "Iron Cross Blade",
-	"item-splitterblade-cross-meteoriciron": "Meteoric Iron Cross Blade",
-	"item-splitterblade-cross-steel": "Steel Cross Blade",
-	
-	"block-handbooktitle-logsplitter": "Log Splitter",
-	"block-handbooktext-logsplitter": "The Log Splitter is a new tool for efficiently making <a href=\"handbook://item-firewood\">fire wood</a>. It's can also be used to create <a href=\"handbooksearch://log slab\">log slabs</a>. To use the logsplitter, place it, and install a <a href=\"handbooksearch://slab blade\">slab blade</a> to make slabs, or a <a href=\"handbooksearch://cross blade\">cross blade</a> to make firewood.<br><br>Processing a log put in a logsplitter requires using a tool, such as the <a href=\"handbooksearch://maul AND tool\">splitting maul</a> that has the pounding <a href=\"handbook://toolmodes-indappledgroves\">tool mode.</a> The log splitter is best used for making firewood. It splits logs slightly slower than using a maul to split the same log, but directly create firewood. This makes it a faster option for creating firewood than the chopping block.<br>Do note that blades have durability, and will need to be replaced every so often. Neither the material of the blade or log splitter will influence the speed at which firewood is produced. However, the material of the blade does affect the blades durability.",
-	"block-handbooktitle-logsplitter2": "Sold By:",
-	"block-handbooktext-logsplitter2": "Blacksmith",
-
-	
-	//Bark Basket Entries
-	"block-handbooktitle-barkbasket": "",
-	"block-handbooktext-barkbasket": "<font align='center'><i>With each weave of the bark, 
-	we are closer to home.</i></font>
-	<font weight='bold' align='center'>- On Basket Weaving</font>
-
-	<font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font>
-
-	These baskets are made wrought from the <a href=\"handbooksearch://soaked bark\">soaked bark</a> of any tree.  This timeless technology has survived the rot, and is a cornerstone of Seraph's looking for convenient storage.
-					
-	Bark has a long history of being used for the making of baskets in areas all over the world. Evidence of baskets can be found in cultures ranging from the Sami of the Sapmi region, the Salsih, Chilkat, and other Native American Tribes of the American Northwest, and countless others.",
-	
-	"barkbasketname": "Bark Baskets",
-	"block-barkbasket": "Bark Basket",
-	"barkbasketcontents": "Bark Basket",
-
-	//Chopping Block Entries
-	"block-handbooktitle-choppingblock": "How To Create:",	
-	"block-handbooktext-choppingblock": "	<strong>Recipe Type:</strong> <a href=\"handbook://inworldcrafting-indappledgroves\">In World</a>
-	<strong>Tool Mode:</strong> <a href=\"handbook://inworldcrafting-indappledgroves\">Hewing</a>
-	<strong>Ingredients</strong>: <a href=\"handbooksearch://log slab\">Any log slab</a>
-	<strong>Tools</strong>: <a href=\"handbooksearch://adze\">adze</a>, <a href=\"handbooksearch://grub axe\">Grub Axe</a>
-",
-	"block-handbooktitle-choppingblock2": "																			A Woodsman's Best Friend",
-	"block-handbooktext-choppingblock2": "
-	<font align='center'><i>Before Enlightenment -
-	Chop Wood, Carry Water,
-	After Enlightenment-
-	Chop Wood, Carry Water</i></font>
-	<font weight='bold' align='center'>- Zen Proverb </font>
-
-				<font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font>
-
-			Made by laying any log slab flat on the ground, and <a href=\"handbook://inworldcrafting-indappledgroves\">hewing</a> it with an adze or other hewing tool, chopping blocks are the foundation of the serious woodsmans set of workstations. 
-								 
-			This workstation provides an improvement in the effectiveness of your tools. Work performed on a chopping block is generally faster than on the ground.
-
-			In addition, there may be certain recipes that can only be performed with the help of a chopping block. For those intending to work with large amounts of wood, it should be the first workstation you acquire. 
-",
-	"block-choppingblock": "Chopping Block",
-	
-	//LogSlab Entries
-	"block-handbooktitle-logslab":"How To Create",
-	"block-handbooktext-logslab": 
-	"	<strong>Recipe Type:</strong> <a href=\"handbook://inworldcrafting-indappledgroves\">In World</a> & <a href=\"handbook://workstations-indappledgroves\">Workstation Crafting</a>
-	<strong>Tool Mode:</strong> <a href=\"handbook://inworldcrafting-indappledgroves\">Chopping</a>
-	<strong>Ingredients</strong>: <a href=\"handbooksearch://log\">Any Log</a>
-	<strong>Tools</strong>: Axes
-		
-	<font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font>",
-	"block-handbooktitle-logslab2":"Log Slabs",
-	"block-handbooktext-logslab2": "	The first stage on the way to making <a href=\"handbook://item-firewood\">fire wood</a>. They can be made on a <a href=\"handbooksearch://chopping block\">chopping block</a> or on the <a href=\"handbook://inworldcrafting-indappledgroves\">ground</a>. The target <a href=\"handbooksearch://log\">log</a> must be upright, with the trunk exposed, rather than bark up. Log slabs, when placed flat, can be <a href=\"handbook://toolmodes-indappledgroves\">hewn</a> into chopping blocks, when upright, they can be <a href=\"handbook://toolmodes-indappledgroves\">chopped</a> into firewood, or <a href=\"handbook://toolmodes-indappledgroves\">hewn</a> to create stripped log slabs and produce two bark.",
-	"block-logslab": "Log Slab",
-	"block-idgblockfirewood": "Firewood",
-
-	//Stripped Log Entries
-	"block-handbooktitle-strippedlog": "Stripped Log",
-	"block-handbooktext-strippedlog": "<font align='center'><i>Nude bodies like peeled logs
-sometimes give off a sweetest
-odor, man and woman
-under the trees in full excess</i></font>
-<font weight='bold' align='center'>- William Carlos Williams</font>
-				
-<font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font>
-
-Stripped logs are created by <a href=\"handbook://toolmodes-indappledgroves\">hewing</a> a barked <a href=\"handbooksearch://log\">log</a>. Can then be split into stripped log slabs.
-
-<font weight='bold'>How To Create</font>
-	<strong>Recipe Type:</strong> <a href=\"handbook://inworldcrafting-indappledgroves\">In World</a> & <a href=\"handbook://workstations-indappledgroves\">Workstation Crafting</a>
-	<strong>Tool Mode:</strong> <a href=\"handbook://inworldcrafting-indappledgroves\">Hewing</a>
-	<strong>Ingredients</strong>: <a href=\"handbooksearch://log\">Any Log</a>		
-	<strong>Common Tools</strong>: Adze, Grub Axe
-",
-	//Sawhorse Entries
-	"block-handbooktitle-sawhorse": "",
-	"block-handbooktext-sawhorse": "
-<font align='center'><i>At the left, the ax; at the right, the saw.
-The ax in the block, the saw on the sawhorse.
-Sawdust smothers the walk. Sitting in the
-shed to watch the rain come down.</i></font>
-<font weight='bold' align='center'>- Paol Keineg</font>",
-
-	"block-sawhorse": "Sawhorse",
-
-	//Sawbuck Entries
-	"indappledgroves:block-handbooktitle-sawbuck": "Sawbuck",
-	"indappledgroves:block-handbooktext-sawbuck": "<font align='center'><i>The Wind Was Sawing,
-	And The Sawdust Was Whirling</i></font>
-	<font weight='bold' align='center'>- Charles Dickens </font>
-
-	<font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font>
-	
-	The sawbuck is a <a href=\"handbook://workstations-indappledgroves\">workstation</a> that is primarily used for sawing operations, making the process go a little faster, and putting a little less wear and tear on your tool.	
-	",
-
-	"block-sawbuck": "Sawbuck",
-
-	//Bark Bundle Entries
-	"indappledgroves:block-handbooktitle-barkbundledry": "Dry Bark Bundle",
-	"indappledgroves:block-handbooktext-barkbundledry": "
-<font align='center'><i>There's the whitebox and pine on the ridges afar,
-Where the iron-bark, blue-gum, and peppermint are;
-There is many another, but dearest to me,
-And the king of them all was the stringy-bark tree..</i></font>
-<font weight='bold' align='center'>- Stringy-Bark Tree Poem by Henry Lawson</font>
-
-		<font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font>
-
-Creating a dry bark bundle is a simple process. Simply shift-right-click
-the ground in one of the four corners of a block with a handful of 
-<a href=\"handbooksearch://dry bark\">dry bark</a> to create a ground storage. Fill the remaining three spaces 
-with the same kind of bark, and then click in the center with a fifth piece 
-to make a dry bark bundle.
-
-Your bark bundle is now ready for processing. Pick it up and place it 
-on a block covered by water to begin the soaking process. 24 hours
-later you'll have a soaked bark bundle. Pick it up and you'll recieve 5 pieces of <a href=\"handbooksearch://soaked bark\">soaked bark</a>, ready to be made into a basket.
-",
-
-	"block-barkbundle": "Bark Bundle",
-	"dry": "Dry",
-	"soaking": "Soaking",
-	"soaked": "Soaked",
-
-
-	"indappledgroves:item-handbooktitle-soakedbark": "Soaked Bark", 
-	"indappledgroves:item-handbooktext-soakedbark": "
-<font align='center'><i>And when sawn-timber homes were built out in the West,
-Then for walls and for ceilings its wood was the best;
-And for shingles and palings to last while men be,
-There was nothing on earth like the stringy-bark tree.</i></font>
-<font weight='bold' align='center'>- Stringy-Bark Tree Poem by Henry Lawson</font>
-		
-     Soaked bark is obtained by placing a <a href=\"handbooksearch://bark bundle\"> bark bundle</a> into water by right-clicking a water covered block.  This will place the dry bark bundle, turning it into a soaking bark bundle.  Over time, it will convert into a soaked bark bundle. Simply right click the soaked bark bundle to pick up 5 <a href=\"handbooksearch://soaked bark\">soaked bark</a>.
-
-Soaked bark is a versatile material perfect for crafting into useful containers, the <a href=\"handbooksearch://bark basket\">bark baskets</a>. If you also have Taska's <a href=\"https://mods.vintagestory.at/ancienttools\">Ancient Tools</a> installed, then you will also need to soak <a href=\"handbooksearch://soaked bark\">soaked bark</a>birchbark</a> to make salves. 
-",
-
-	//Vanilla Replacement Entries
-	"indappledgroves:item-handbooktitle-firewood": "Firewood",
-	"indappledgroves:item-handbooktext-firewood": "	
-<font align='center'><i>Beechwood fires are bright and clear
-If the logs are kept a year,
-Chestnut's only good they say,
-If for logs 'tis laid away.</i></font>
-<font weight='bold' align='center'>- The Firewood Poem by Lady Celia Congreve</font>
-
-<font size=18 weight='bold'>In Dappled Groves Uses:</font>
-<font size=14 weight='bold'>Recipe Type:</font>  <font size=14><a href=\"handbook://inworldcrafting-indappledgroves\">In World</a> & <a href=\"handbook://workstations-indappledgroves\">Workstation Crafting</a></font>
-<font size=14 weight='bold'>Tool Mode:</font>  <font size=14><a href=\"handbook://inworldcrafting-indappledgroves\">Chopping</a></font>
-<font size=14 weight='bold'>Ingredients</font>: <font size=14><a href=\"handbook://indappledgroves:logslab-birch-barked-down-free\">Barked or Debarked Log Slab</a></font>
-<font size=14 weight='bold'>Common Tools</font>: <font size=14><a href=\"handbooksearch://axe\">Axe</a>, <a href=\"handbooksearch://forest axe\">Forest Axe</a>, <a href=\"handbooksearch://splitting maul\">Maul</a>, <a href=\"handbooksearch://grub axe\">Grub Axe</a></font>
-<font size=14 weight='bold'>Workstation</font>: <font size=14> <a href=\"handbooksearch://chopping block\">Chopping Block</a> or Ground</font>
-",
-
-	"indappledgroves:item-handbooktitle-stick": "Sticks",
-	"indappledgroves:item-handbooktext-stick": "
-<font align='center'><i>I was far off in the forest
-When I found the perfect stick
-I knew that it was perfect
-Not too skinny, Not too thick</i></font>
-<font weight='bold' align='center'>-Amy Ludwig VanDerwater</font>
-
-<font size=18 weight='bold'>In Dappled Groves Uses:</font>
-<font size=14 weight='bold'>Recipe Type:</font>  <font size=14><a href=\"handbook://inworldcrafting-indappledgroves\">In World</a> & <a href=\"handbook://workstations-indappledgroves\">Workstation Crafting</a></font>
-<font size=14 weight='bold'>Tool Mode:</font>  <font size=14><a href=\"handbook://inworldcrafting-indappledgroves\">Chopping</a></font>
-<font size=14 weight='bold'>Ingredients</font>: <font size=14><a href=\"handbook://item-firewood\">Firewood</a></font>
-<font size=14 weight='bold'>Common Tools</font>: <font size=14><a href=\"handbooksearch://axe\">Axe</a>, <a href=\"handbooksearch://forest axe\">Forest Axe</a>, <a href=\"handbooksearch://splitting maul\">Maul</a>, <a href=\"handbooksearch://grub axe\">Grub Axe</a></font>
-<font size=14 weight='bold'>Workstation</font>: <font size=14> <a href=\"handbooksearch://chopping block\">Chopping Block</a> or Ground</font>
-
-You can use any <a href=\"handbooksearch://axe\">axe</a> to <a href=\"handbook://toolmodes-indappledgroves\">chop</a> a piece of <a href=\"handbook://item-firewood\">fire wood</a> on the <a href=\"handbook://inworldcrafting-indappledgroves\">ground</a> or on a <a href=\"handbooksearch://chopping block\">chopping block</a> to create sticks.
-",
+  "item-splitterblade-single-tinbronze": "Tin Bronze Slab Blade",
+  "item-splitterblade-single-bismuthbronze": "Bismuth Bronze Slab Blade",
+  "item-splitterblade-single-blackbronze": "Black Bronze Slab Blade",
+  "item-splitterblade-single-iron": "Iron Slab Blade",
+  "item-splitterblade-single-meteoriciron": "Meteoric Iron Slab Blade",
+  "item-splitterblade-single-steel": "Steel Slab Blade",
+  "item-splitterblade-cross-tinbronze": "Tin Bronze Cross Blade",
+  "item-splitterblade-cross-bismuthbronze": "Bismuth Bronze Cross Blade",
+  "item-splitterblade-cross-blackbronze": "Black Bronze Cross Blade",
+  "item-splitterblade-cross-iron": "Iron Cross Blade",
+  "item-splitterblade-cross-meteoriciron": "Meteoric Iron Cross Blade",
+  "item-splitterblade-cross-steel": "Steel Cross Blade",
+  "block-handbooktitle-logsplitter": "Log Splitter",
+  "block-handbooktext-logsplitter": "The Log Splitter is a new tool for efficiently making <a href=\"handbook://item-firewood\">fire wood</a>. It's can also be used to create <a href=\"handbooksearch://log slab\">log slabs</a>. To use the logsplitter, place it, and install a <a href=\"handbooksearch://slab blade\">slab blade</a> to make slabs, or a <a href=\"handbooksearch://cross blade\">cross blade</a> to make firewood.<br><br>Processing a log put in a logsplitter requires using a tool, such as the <a href=\"handbooksearch://maul AND tool\">splitting maul</a> that has the pounding <a href=\"handbook://toolmodes-indappledgroves\">tool mode.</a> The log splitter is best used for making firewood. It splits logs slightly slower than using a maul to split the same log, but directly create firewood. This makes it a faster option for creating firewood than the chopping block.<br>Do note that blades have durability, and will need to be replaced every so often. Neither the material of the blade or log splitter will influence the speed at which firewood is produced. However, the material of the blade does affect the blades durability.",
+  "block-handbooktitle-logsplitter2": "Sold By:",
+  "block-handbooktext-logsplitter2": "Blacksmith",
+  "block-handbooktitle-barkbasket": "",
+  "block-handbooktext-barkbasket": "<font align='center'><i>With each weave of the bark, \n\twe are closer to home.</i></font>\n\t<font weight='bold' align='center'>- On Basket Weaving</font>\n\n\t<font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font>\n\n\tThese baskets are made wrought from the <a href=\"handbooksearch://soaked bark\">soaked bark</a> of any tree.  This timeless technology has survived the rot, and is a cornerstone of Seraph's looking for convenient storage.\n\t\t\t\t\t\n\tBark has a long history of being used for the making of baskets in areas all over the world. Evidence of baskets can be found in cultures ranging from the Sami of the Sapmi region, the Salsih, Chilkat, and other Native American Tribes of the American Northwest, and countless others.",
+  "barkbasketname": "Bark Baskets",
+  "block-barkbasket": "Bark Basket",
+  "barkbasketcontents": "Bark Basket",
+  "block-handbooktitle-choppingblock": "How To Create:",
+  "block-handbooktext-choppingblock": "\t<strong>Recipe Type:</strong> <a href=\"handbook://inworldcrafting-indappledgroves\">In World</a>\n\t<strong>Tool Mode:</strong> <a href=\"handbook://inworldcrafting-indappledgroves\">Hewing</a>\n\t<strong>Ingredients</strong>: <a href=\"handbooksearch://log slab\">Any log slab</a>\n\t<strong>Tools</strong>: <a href=\"handbooksearch://adze\">adze</a>, <a href=\"handbooksearch://grub axe\">Grub Axe</a>\n",
+  "block-handbooktitle-choppingblock2": "\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tA Woodsman's Best Friend",
+  "block-handbooktext-choppingblock2": "\n\t<font align='center'><i>Before Enlightenment -\n\tChop Wood, Carry Water,\n\tAfter Enlightenment-\n\tChop Wood, Carry Water</i></font>\n\t<font weight='bold' align='center'>- Zen Proverb </font>\n\n\t\t\t\t<font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font>\n\n\t\t\tMade by laying any log slab flat on the ground, and <a href=\"handbook://inworldcrafting-indappledgroves\">hewing</a> it with an adze or other hewing tool, chopping blocks are the foundation of the serious woodsmans set of workstations. \n\t\t\t\t\t\t\t\t \n\t\t\tThis workstation provides an improvement in the effectiveness of your tools. Work performed on a chopping block is generally faster than on the ground.\n\n\t\t\tIn addition, there may be certain recipes that can only be performed with the help of a chopping block. For those intending to work with large amounts of wood, it should be the first workstation you acquire. \n",
+  "block-choppingblock": "Chopping Block",
+  "block-handbooktitle-logslab": "How To Create",
+  "block-handbooktext-logslab": "\t<strong>Recipe Type:</strong> <a href=\"handbook://inworldcrafting-indappledgroves\">In World</a> & <a href=\"handbook://workstations-indappledgroves\">Workstation Crafting</a>\n\t<strong>Tool Mode:</strong> <a href=\"handbook://inworldcrafting-indappledgroves\">Chopping</a>\n\t<strong>Ingredients</strong>: <a href=\"handbooksearch://log\">Any Log</a>\n\t<strong>Tools</strong>: Axes\n\t\t\n\t<font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font>",
+  "block-handbooktitle-logslab2": "Log Slabs",
+  "block-handbooktext-logslab2": "\tThe first stage on the way to making <a href=\"handbook://item-firewood\">fire wood</a>. They can be made on a <a href=\"handbooksearch://chopping block\">chopping block</a> or on the <a href=\"handbook://inworldcrafting-indappledgroves\">ground</a>. The target <a href=\"handbooksearch://log\">log</a> must be upright, with the trunk exposed, rather than bark up. Log slabs, when placed flat, can be <a href=\"handbook://toolmodes-indappledgroves\">hewn</a> into chopping blocks, when upright, they can be <a href=\"handbook://toolmodes-indappledgroves\">chopped</a> into firewood, or <a href=\"handbook://toolmodes-indappledgroves\">hewn</a> to create stripped log slabs and produce two bark.",
+  "block-logslab": "Log Slab",
+  "block-idgblockfirewood": "Firewood",
+  "block-handbooktitle-strippedlog": "Stripped Log",
+  "block-handbooktext-strippedlog": "<font align='center'><i>Nude bodies like peeled logs\nsometimes give off a sweetest\nodor, man and woman\nunder the trees in full excess</i></font>\n<font weight='bold' align='center'>- William Carlos Williams</font>\n\t\t\t\t\n<font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font>\n\nStripped logs are created by <a href=\"handbook://toolmodes-indappledgroves\">hewing</a> a barked <a href=\"handbooksearch://log\">log</a>. Can then be split into stripped log slabs.\n\n<font weight='bold'>How To Create</font>\n\t<strong>Recipe Type:</strong> <a href=\"handbook://inworldcrafting-indappledgroves\">In World</a> & <a href=\"handbook://workstations-indappledgroves\">Workstation Crafting</a>\n\t<strong>Tool Mode:</strong> <a href=\"handbook://inworldcrafting-indappledgroves\">Hewing</a>\n\t<strong>Ingredients</strong>: <a href=\"handbooksearch://log\">Any Log</a>\t\t\n\t<strong>Common Tools</strong>: Adze, Grub Axe\n",
+  "block-handbooktitle-sawhorse": "",
+  "block-handbooktext-sawhorse": "\n<font align='center'><i>At the left, the ax; at the right, the saw.\nThe ax in the block, the saw on the sawhorse.\nSawdust smothers the walk. Sitting in the\nshed to watch the rain come down.</i></font>\n<font weight='bold' align='center'>- Paol Keineg</font>",
+  "block-sawhorse": "Sawhorse",
+  "indappledgroves:block-handbooktitle-sawbuck": "Sawbuck",
+  "indappledgroves:block-handbooktext-sawbuck": "<font align='center'><i>The Wind Was Sawing,\n\tAnd The Sawdust Was Whirling</i></font>\n\t<font weight='bold' align='center'>- Charles Dickens </font>\n\n\t<font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font>\n\t\n\tThe sawbuck is a <a href=\"handbook://workstations-indappledgroves\">workstation</a> that is primarily used for sawing operations, making the process go a little faster, and putting a little less wear and tear on your tool.\t\n\t",
+  "block-sawbuck": "Sawbuck",
+  "indappledgroves:block-handbooktitle-barkbundledry": "Dry Bark Bundle",
+  "indappledgroves:block-handbooktext-barkbundledry": "\n<font align='center'><i>There's the whitebox and pine on the ridges afar,\nWhere the iron-bark, blue-gum, and peppermint are;\nThere is many another, but dearest to me,\nAnd the king of them all was the stringy-bark tree..</i></font>\n<font weight='bold' align='center'>- Stringy-Bark Tree Poem by Henry Lawson</font>\n\n\t\t<font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font>\n\nCreating a dry bark bundle is a simple process. Simply shift-right-click\nthe ground in one of the four corners of a block with a handful of \n<a href=\"handbooksearch://dry bark\">dry bark</a> to create a ground storage. Fill the remaining three spaces \nwith the same kind of bark, and then click in the center with a fifth piece \nto make a dry bark bundle.\n\nYour bark bundle is now ready for processing. Pick it up and place it \non a block covered by water to begin the soaking process. 24 hours\nlater you'll have a soaked bark bundle. Pick it up and you'll recieve 5 pieces of <a href=\"handbooksearch://soaked bark\">soaked bark</a>, ready to be made into a basket.\n",
+  "block-barkbundle": "Bark Bundle",
+  "dry": "Dry",
+  "soaking": "Soaking",
+  "soaked": "Soaked",
+  "indappledgroves:item-handbooktitle-soakedbark": "Soaked Bark",
+  "indappledgroves:item-handbooktext-soakedbark": "\n<font align='center'><i>And when sawn-timber homes were built out in the West,\nThen for walls and for ceilings its wood was the best;\nAnd for shingles and palings to last while men be,\nThere was nothing on earth like the stringy-bark tree.</i></font>\n<font weight='bold' align='center'>- Stringy-Bark Tree Poem by Henry Lawson</font>\n\t\t\n     Soaked bark is obtained by placing a <a href=\"handbooksearch://bark bundle\"> bark bundle</a> into water by right-clicking a water covered block.  This will place the dry bark bundle, turning it into a soaking bark bundle.  Over time, it will convert into a soaked bark bundle. Simply right click the soaked bark bundle to pick up 5 <a href=\"handbooksearch://soaked bark\">soaked bark</a>.\n\nSoaked bark is a versatile material perfect for crafting into useful containers, the <a href=\"handbooksearch://bark basket\">bark baskets</a>. If you also have Taska's <a href=\"https://mods.vintagestory.at/ancienttools\">Ancient Tools</a> installed, then you will also need to soak <a href=\"handbooksearch://soaked bark\">soaked bark</a>birchbark</a> to make salves. \n",
+  "indappledgroves:item-handbooktitle-firewood": "Firewood",
+  "indappledgroves:item-handbooktext-firewood": "\t\n<font align='center'><i>Beechwood fires are bright and clear\nIf the logs are kept a year,\nChestnut's only good they say,\nIf for logs 'tis laid away.</i></font>\n<font weight='bold' align='center'>- The Firewood Poem by Lady Celia Congreve</font>\n\n<font size=18 weight='bold'>In Dappled Groves Uses:</font>\n<font size=14 weight='bold'>Recipe Type:</font>  <font size=14><a href=\"handbook://inworldcrafting-indappledgroves\">In World</a> & <a href=\"handbook://workstations-indappledgroves\">Workstation Crafting</a></font>\n<font size=14 weight='bold'>Tool Mode:</font>  <font size=14><a href=\"handbook://inworldcrafting-indappledgroves\">Chopping</a></font>\n<font size=14 weight='bold'>Ingredients</font>: <font size=14><a href=\"handbook://indappledgroves:logslab-birch-barked-down-free\">Barked or Debarked Log Slab</a></font>\n<font size=14 weight='bold'>Common Tools</font>: <font size=14><a href=\"handbooksearch://axe\">Axe</a>, <a href=\"handbooksearch://forest axe\">Forest Axe</a>, <a href=\"handbooksearch://splitting maul\">Maul</a>, <a href=\"handbooksearch://grub axe\">Grub Axe</a></font>\n<font size=14 weight='bold'>Workstation</font>: <font size=14> <a href=\"handbooksearch://chopping block\">Chopping Block</a> or Ground</font>\n",
+  "indappledgroves:item-handbooktitle-stick": "Sticks",
+  "indappledgroves:item-handbooktext-stick": "\n<font align='center'><i>I was far off in the forest\nWhen I found the perfect stick\nI knew that it was perfect\nNot too skinny, Not too thick</i></font>\n<font weight='bold' align='center'>-Amy Ludwig VanDerwater</font>\n\n<font size=18 weight='bold'>In Dappled Groves Uses:</font>\n<font size=14 weight='bold'>Recipe Type:</font>  <font size=14><a href=\"handbook://inworldcrafting-indappledgroves\">In World</a> & <a href=\"handbook://workstations-indappledgroves\">Workstation Crafting</a></font>\n<font size=14 weight='bold'>Tool Mode:</font>  <font size=14><a href=\"handbook://inworldcrafting-indappledgroves\">Chopping</a></font>\n<font size=14 weight='bold'>Ingredients</font>: <font size=14><a href=\"handbook://item-firewood\">Firewood</a></font>\n<font size=14 weight='bold'>Common Tools</font>: <font size=14><a href=\"handbooksearch://axe\">Axe</a>, <a href=\"handbooksearch://forest axe\">Forest Axe</a>, <a href=\"handbooksearch://splitting maul\">Maul</a>, <a href=\"handbooksearch://grub axe\">Grub Axe</a></font>\n<font size=14 weight='bold'>Workstation</font>: <font size=14> <a href=\"handbooksearch://chopping block\">Chopping Block</a> or Ground</font>\n\nYou can use any <a href=\"handbooksearch://axe\">axe</a> to <a href=\"handbook://toolmodes-indappledgroves\">chop</a> a piece of <a href=\"handbook://item-firewood\">fire wood</a> on the <a href=\"handbook://inworldcrafting-indappledgroves\">ground</a> or on a <a href=\"handbooksearch://chopping block\">chopping block</a> to create sticks.\n",
   "indappledgroves:block-handbooktitle-debarkedlog": "Crafting Method",
-  "indappledgroves:block-handbooktext-debarkedlog": "
-<font size=18 weight='bold'>In Dappled Groves Uses:</font>
-<font size=14 weight='bold'>Recipe Type:</font>  <font size=14><a href=\"handbook://inworldcrafting-indappledgroves\">In World</a> & <a href=\"handbook://workstations-indappledgroves\">Workstation Crafting</a></font>
-<font size=14 weight='bold'>Tool Mode:</font> <font size=14> <a href=\"handbook://inworldcrafting-indappledgroves\">Hewing</a></font>
-<font size=14 weight='bold'>Ingredients</font>:  <font size=14><a href=\"handbooksearch://log\">Any Log</a></font>
-<font size=14 weight='bold'>Common Tools</font>:  <font size=14><a href=\"handbooksearch://adze\">adze</a>, <a href=\"handbooksearch://grub axe\">Grub Axe</a></font>
-<font size=14 weight='bold'>Workstation</font>:  <font size=14><a href=\"handbooksearch://chopping block\">Chopping Block</a> or Ground</font>
-",
-
+  "indappledgroves:block-handbooktext-debarkedlog": "\n<font size=18 weight='bold'>In Dappled Groves Uses:</font>\n<font size=14 weight='bold'>Recipe Type:</font>  <font size=14><a href=\"handbook://inworldcrafting-indappledgroves\">In World</a> & <a href=\"handbook://workstations-indappledgroves\">Workstation Crafting</a></font>\n<font size=14 weight='bold'>Tool Mode:</font> <font size=14> <a href=\"handbook://inworldcrafting-indappledgroves\">Hewing</a></font>\n<font size=14 weight='bold'>Ingredients</font>:  <font size=14><a href=\"handbooksearch://log\">Any Log</a></font>\n<font size=14 weight='bold'>Common Tools</font>:  <font size=14><a href=\"handbooksearch://adze\">adze</a>, <a href=\"handbooksearch://grub axe\">Grub Axe</a></font>\n<font size=14 weight='bold'>Workstation</font>:  <font size=14><a href=\"handbooksearch://chopping block\">Chopping Block</a> or Ground</font>\n",
   "indappledgroves:block-handbooktitle-supportbeam": "Crafting Method",
-  "indappledgroves:block-handbooktext-supportbeam": "
-<font size=18 weight='bold'>In Dappled Groves Uses:</font>
-<font size=14 weight='bold'>Recipe Type:</font></strong> <font size=14><a href=\"handbook://inworldcrafting-indappledgroves\">In World</a> & <a href=\"handbook://workstations-indappledgroves\">Workstation Crafting</a></font>
-<font size=14 weight='bold'>Tool Mode:</font></strong> <font size=14><a href=\"handbook://inworldcrafting-indappledgroves\">Hewing</a></font>
-<font size=14 weight='bold'>Ingredients</strong>:</font> <font size=14><a href=\"handbooksearch://debarked\">Any Debarked Log</a></font>		
-<font size=14 weight='bold'>Common Tools</strong>:</font> <font size=14><a href=\"handbooksearch://adze\">adze</a>, <a href=\"handbooksearch://grub axe\">Grub Axe</a></font>
-<font size=14 weight='bold'>Workstation</strong>:</font> <font size=14><a href=\"handbook://workstations-indappledgroves\">Saw Buck</a></font>
-",
-	//Grub Axe Entries
-	"item-handbooktitle-grubaxe": "Grub Axe",
-	"item-handbooktext-grubaxe": "A grub axe has a long handle and a stout head combining a vertical axe blade with a horizontal adze. This makes it a flexible tool capable of <a href=\"handbook://toolmodes-indappledgroves\">chopping</a> or <a href=\"handbook://toolmodes-indappledgroves\">hewing.</a>",
-	"item-grubaxehead-tinbronze": "Tin Bronze Grub Axe Head",
-	"item-grubaxehead-bismuthbronze": "Bismuth Bronze Grub Axe Head",
-	"item-grubaxehead-blackbronze": "Black Bronze Grub Axe Head",
-	"item-grubaxehead-iron": "Iron Grub Axe Head",
-	"item-grubaxehead-meteoriciron": "Meteoric Iron Grub Axe Head",
-	"item-grubaxehead-steel": "Steel Grub Axe Head",
-	"item-grubaxe-tinbronze": "Tin Bronze Grub Axe",
-	"item-grubaxe-bismuthbronze": "Bismuth Bronze Grub Axe",
-	"item-grubaxe-blackbronze": "Black Bronze Grub Axe",
-	"item-grubaxe-iron": "Iron Grub Axe",
-	"item-grubaxe-meteoriciron": "Meteoric Iron Grub Axe",
-	"item-grubaxe-steel": "Steel Grub Axe",
-	
-	//Forest Axe Entries
-	"item-handbooktitle-forestaxe": "Forest Axe",
-	"item-handbooktext-forestaxe": "
-<font align='center'><i>With aching limbs and tortured back,
-We'd listen for the tree to crack.
-And there would be a thunderous sound,
-As it came crashing to the ground.</i></font>
-<font weight='bold' align='center'>- George Savige</font>
-
-				<font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font>
-				
-		The distinguishing feature of forest axes is a long, rounded edge, with a flat elongated axe head. Forest Axes are specially designed to cut across the grain of the wood fibres, for example when felling and limbing.	
-		This makes them exceptionally good for chopping down trees, though they perform poorly when attempting to <a href=\"handbook://toolmodes-indappledgroves\">chop</a> lumber into <a href=\"handbooksearch://log slab\">log slabs</a>, <a href=\"handbook://item-firewood\">fire wood</a>, and <a href=\"handbook://item-stick\">sticks</a>.
-		",
-
-	"item-forestaxehead-tinbronze": "Tin Bronze Forest Axe Head",
-	"item-forestaxehead-bismuthbronze": "Bismuth Bronze Forest Axe Head",
-	"item-forestaxehead-blackbronze": "Black Bronze Forest Axe Head",
-	"item-forestaxehead-iron": "Iron Forest Axe Head",
-	"item-forestaxehead-meteoriciron": "Meteoric Iron Forest Axe Head",
-	"item-forestaxehead-steel": "Steel Forest Axe Head",
-	"item-forestaxe-tinbronze": "Tin Bronze Forest Axe",
-	"item-forestaxe-bismuthbronze": "Bismuth Bronze Forest Axe",
-	"item-forestaxe-blackbronze": "Black Bronze Forest Axe",
-	"item-forestaxe-iron": "Iron Forest Axe",
-	"item-forestaxe-meteoriciron": "Meteoric Iron Forest Axe",
-	"item-forestaxe-steel": "Steel Forest Axe",
-
-	//Maul Entries
-	"item-handbooktitle-maul": "Splitting Maul",
-	"item-handbooktext-maul": "This tool has a heavy head with a thick <a href=\"handbook://toolmodes-indappledgroves\">chopping</a> blade making it perfect for splitting <a href=\"handbooksearch://log\">logs</a> into <a href=\"handbooksearch://log slab\">slabs</a>. These can be further split into <a href=\"handbook://item-firewood\">fire wood</a>, and from there into <a href=\"handbook://item-stick\">sticks.</a> ",
-	"item-maulhead-tinbronze": "Tin Bronze Maul Head",
-	"item-maulhead-bismuthbronze": "Bismuth Bronze Maul Head",
-	"item-maulhead-blackbronze": "Black Bronze Maul Head",
-	"item-maulhead-iron": "Iron Maul Head",
-	"item-maulhead-meteoriciron": "Meteoric Iron Maul Head",
-	"item-maulhead-steel": "Steel Maul Head",
-	"item-maul-tinbronze": "Tin Bronze Splitting Maul",
-	"item-maul-bismuthbronze": "Bismuth Bronze Splitting Maul",
-	"item-maul-blackbronze": "Black Bronze Splitting Maul",
-	"item-maul-iron": "Iron Splitting Maul",
-	"item-maul-meteoriciron": "Meteoric Iron Splitting Maul",
-	"item-maul-steel": "Steel Splitting Maul",
-
-	//Bark Entries
-	"item-handbooktitle-drybark": "Bark",
-	"item-handbooktext-drybark": "Bark from trees is useful for making <a href=\"handbooksearch://bark basket\">bark baskets</a>. This is accomplished by fashioning them into <a href=\"handbooksearch://dry bark bundle\">bark bundles</a> and soaking them for 24 hours to produce <a href=\"handbooksearch://soaked bark\">soaked bark</a>.",
-	"item-bark": "Bark",
-
-	//Adze Info
-	"item-handbooktitle-adze": "",
-	"item-handbooktext-adze": "",
-	"item-adzehead-flint": "Flint Adze Head", 
-	"item-adzehead-chert": "Chert Adze Head",
-	"item-adzehead-granite": "Granite Adze Head",
-	"item-adzehead-andesite": "Andesite Adze Head",
-	"item-adzehead-basalt": "Basalt Adze Head",
-	"item-adzehead-obsidian": "Obsidian Adze Head",
-	"item-adzehead-peridotite": "Peridotite Adze Head",
-	"item-adzehead-tinbronze": "Tin Bronze Adze Head",
-	"item-adzehead-bismuthbronze": "Bismuth Bronze Adze Head",
-	"item-adzehead-blackbronze": "Black Bronze Adze Head",
-	"item-adzehead-iron": "Iron Adze Head",
-	"item-adzehead-meteoriciron": "Meteoric Iron Adze Head",
-	"item-adzehead-steel": "Steel Adze Head",
-	"item-adze-*-chert": "Chert Adze",
-	"item-adze-*-granite": "Granite Adze",
-	"item-adze-*-andesite": "Andesite Adze",
-	"item-adze-*-basalt": "Basalt Adze",
-	"item-adze-*-obsidian": "Obsidian Adze",
-	"item-adze-*-peridotite": "Peridotite Adze",
-	"item-adze-*-flint": "Flint Adze",
-	"item-adze-*-tinbronze": "Tin Bronze Adze",
-	"item-adze-*-bismuthbronze": "Bismuth Bronze Adze",
-	"item-adze-*-blackbronze": "Black Bronze Adze",
-	"item-adze-*-iron": "Iron Adze",
-	"item-adze-*-meteoriciron": "Meteoric Iron Adze",
-	"item-adze-*-steel": "Steel Adze",
-	
-	//Story Events
-	"The Tyee and the bullcook...": "The Tyee and the bullcook...",
-	"...working sole and blade": "...working sole and blade",
-	"...with sturdy haft and bit": "...with sturdy haft and bit",
-	"...by dust and the dog": "...by dust and the dog",
-
-	//ToolMode Interaction Help
-	"heldhelp-chopping": "Chop to create {0}",
-	"heldhelp-hewing": "Hew to create {0}",
-	"heldhelp-planing": "Plane to create {0}",
-	"heldhelp-sawing": "Saw to create {0}",
-
-	//Ground Recipe Guide
-"indappledgrovesguide-inworldcrafting-title": "IDG: In-World Crafting",
-"indappledgrovesguide-inworldcrafting-text": 
-"<font weight='bold' align='center'>In-World Crafting</font>
-In-World Crafting works to remove the dependence on the crafting 
-grid to create a more immersive experience. In Dappled Groves applies
-this principle by providing two new mechanics to your woodworking
-adventures.
-
-<font weight='bold' align='center'>Ground Processing</font>
-The first mechanic is the ability to process wood without the grid.
-You can place a log, log slab, or piece of firewood on the ground and
-interact with it with a tool such as an <a href=\"handbooksearch://axe\">axe</a>, <a href=\"handbooksearch://adze\">adze</a>, or <a href=\"handbooksearch://saw\">saw</a>. The results depend on the tool used and the selected <a href=\"handbook://toolmodes-indappledgroves\">tool mode</a>.  For instance, a <a href=\"handbooksearch://grub axe\">Grub Axe</a> set to hewing used on a log will produce bark, while selecting the chopping tool mode will result in log slabs.
-
-
-<font weight='bold' align='center'>Workstations</font>
-<a href=\"handbook://workstations-indappledgroves\">Workstations</a> are the second mechanic. These currently include the
-chopping block and saw buck. These workstations serve to provide a boost to efficiency when processing recipes
-on them. Like before, the <a href=\"handbook://toolmodes-indappledgroves\">tool mode</a> of your tool alters the results.
-
-Working materials on or off of a <a href=\"handbook://workstations-indappledgroves\">workstation</a> is done the same way. 
-Simply target the block and hold down the right-mouse button. The
-working animation will begin, and soon you'll see your results. Wood
-types vary in their hardness, so the time required may vary. Pine is a 
-softer wood, and will process quickly. Ebony is one of the world's
-hardest woods, and will take significantly longer, especially with
-stone tools.",
-
-	//Workstation Guide
-"indappledgrovesguide-workstations-title": "IDG: Workstation Crafting",
-"indappledgrovesguide-workstations-text": "
-<font weight='bold' align='center'>Workstation Crafting</font>
-<font align='center'><i>‘And while I worked it made me think
-Of timber’s varied doom;
-One inch where people eat and drink,
-The next inch in a tomb.</i></font>
-<font weight='strong' align='center'>- “The Workbox” by Thomas Hardy</font>
-
-Workstations are blocks that add an interactive element to producing resources. In Dappled Groves adds two such workstations, the <a href=\"handbooksearch://chopping block\">chopping block</a> and the <a href=\"handbooksearch:sawbuck\">sawbuck</a>.
-
-<font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font>
-
-<font weight='bold' align='center'>Workstations</font>
-
-<font weight='bold'>Chopping Block</font>
-The chopping block is the most basic of workstations, made by using a <a href=\"handbook://toolmodes-indappledgroves\">hewing</a> tool such as an <a href=\"handbooksearch://adze\">adze</a> or a <a href=\"handbooksearch://grub axe\">grub axe</a> on a <a href=\"handbooksearch://log slab\">log slab</a> laid flat on the ground.
-
-The <a href=\"handbooksearch://chopping block\">chopping block</a> is currently used for a number of <a href=\"handbook://toolmodes-indappledgroves\">chopping</a> and <a href=\"handbook://toolmodes-indappledgroves\">hewing</a> processes. You can process <a href=\"handbooksearch://log\">logs</a> into <a href=\"handbooksearch://log slab\">log slabs</a>, those into <a href=\"handbook://item-firewood\">firewood</a>, and those into <a href=\"handbook://item-stick\">sticks.</a>  These processes can also be done on the ground, but the chopping block speeds up the process.
-
-<font weight='bold' align='left'>Saw Buck</font>
-The sawbuck becomes available after you craft <a href=\"handbook://item-plank-birch\">boards</a> on the ground with a <a href=\"handbooksearch://saw\">saw</a>. As with the chopping block, it speeds up processes performed on it, and is used for <a href=\"handbook://toolmodes-indappledgroves\">sawing</a> logs into <a href=\"handbooksearch://board\">boards</a>, and <a href=\"handbook://toolmodes-indappledgroves\">hewing</a> them into <a href=\"handbooksearch://beam\">support beams</a>.
-",
-
-
-//Tool Modes Guide
-"indappledgrovesguide-toolmodes-title": "IDG: Tool Modes",
-"indappledgrovesguide-toolmodes-text": 
-"<font weight='bold' align='center'>Tool Modes</font>
-Tool modes provide options in how a tool is used, and can be changed
-by pressing the F key while holding a tool that has them. In vanilla, 
-tool modes can be seen with the chisel and prospecting pick. This mod
-adds these options to other tools to provide more dynamic crafting
-opportunities when combined with different materials and <a href=\"handbook://workstations-indappledgroves\">workstations</a>.
-
-<font weight='bold' align='center'>Basic Concepts</font>
-Tool modes in this mod provide access to different recipes and
-therefore different outputs based the tool, crafting station, and
-input. Three different tool modes have been implemented as of this
-version, with a fourth presently disabled and a fifth being planned.
-
-Not all tools will have access to the same tool modes, nor will
-all tools that have access to a tool mode be guaranteed to be effective
-at the indicated process. Some tools are simply better at some things 
-than others. For instance, you can hew wood with the backside of a 
-<a href=\"handbooksearch://grub axe\">grub axe</a>, but it's not as effective as the same tier <a href=\"handbooksearch://adze\">adze</a> will be.
-
-<font weight='bold' align='center'>Tool Modes</font>
-
-<font weight='bold'>Chopping:</font> Used when chopping wood into slabs, firewood, and sticks. May be changed to 'splitting' in a future revision. Found in any form of <a href=\"handbook://item-axe-wood-tinbronze\">axe</a>, including <a href=\"handbooksearch://forest axe\">forest axe</a>, <a href=\"handbooksearch://grub axe\">grub axes</a>, and <a href=\"handbooksearch://splitting maul\">mauls</a>.
-
-<font weight='bold'>Hewing:</font> Used when shaping wood or 'peeling' it, such as when removing bark. Currently used only for peeling bark, creating chopping blocks from slabs, and making beams on the <a href=\"handbooksearch:sawbuck\">sawbuck</a>. Found in any <a href=\"handbooksearch:adze\">adze</a> or <a href=\"handbooksearch://grub axe\">Grub Axe</a>.'
-
-<font weight='bold'>Sawing:</font> Used by saws, when making boards out of logs. Found in, unsurprisingly, the <a href=\"handbooksearch://saw\">saw.</a>
-
-<font weight='bold'>Pounding:</font> This tool mode is available in the <a href=\"handbooksearch://splitting maul\">splitting maul</a>, and is used with the <a href=\"handbooksearch://log splitter\">log splitter</a>. to produce <a href=\"handbook://item-firewood\">fire wood</a> efficiently. It is also used for making <a href=\"handbooksearch://log slab\">log slabs</a>.",
-
-//<font weight='bold' align='center'>Future Modes</font>
-//<font weight='bold'>Planing:</font>  Planing will be a mode used to process boards from a rough state into a smoothed state when more in-depth board making processes are introduced.
-
-//<font weight='bold'>Riving:</font> Riving is a process by which logs can be split into shingles, beams, and various other pieces that require methods more precise than splitting with an axe or maul. A froe, or frow axe is usually used for this process.",
-
-"item-handbooktitle-firewood": "In Dappled Groves Uses:",
-"item-handbooktext-firewood": "Can be made by <a href=\"handbook://toolmodes-indappledgroves\">chopping</a> a log slab after placing on the ground, or on a <a href=\"handbooksearch://chopping block\">chopping block</a>. Can be placed on the ground or a <a href=\"handbooksearch://chopping block\">chopping block</a> and processed into sticks by <a href=\"handbook://toolmodes-indappledgroves\">chopping</a> them with an axe or other chopping tool. ",
-//Wood Resistance Information
-"woodresistance-indappledgroves":"IDG: Varied Wood Resistance",
-"indappledgroves:indappledgrovesguide-woodresistance-title":"IDG Mechanic: Varied Wood Resistance",
-"indappledgroves:indappledgrovesguide-woodresistance-text": "<font align='center'><i>Good timber does not grow with ease,
-The stronger wind, the stronger trees;
-The further sky, the greater length;
-The more the storm, the more the strength.</i></font>
-<font weight='bold' align='center'>- Good Timber by Douglas Malloch</font>
-
-<font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font>
-<font size=18 weight='bold' align='center'>Wood Resistances and Wood Working</font>
-<font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font>
-
-Woods in In Dappled Groves have different wood resistance by type. 
-This influences how quickly you can fell trees and process wood 
-materials.The resistance of the wood, the workstation you're using, 
-and the effectivenss of your tool all play into how quickly a tree 
-can be felled and the wood then worked.
-
-Wood hardness is derived from the <a href=\"https://en.wikipedia.org/wiki/Janka_hardness_test\">Janka Hardness test</a>, and 
-accordingly represent an approximate simulation of VS woods in 
-relation to one another in RL. Not to be confused with this 
-<a href=\"https://www.youtube.com/watch?v=CoACA_LNKt0\">test.</a>
-
-You're welcome, I'm a nerd.
-
-<font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font>
-<font size=18 weight='bold' align='center'>Wood Resistance in Order By Mod Softest To Hardest</font>
-<font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font>
-
-<font size=14 weight='bold'>Vanilla</font>:<font size=12>	
-Redwood, Larch, Pine, Kapok, Walnut, Birch, Oak, Maple, Acacia, Purpleheart, Ebony</font>
-
-<font size=14 weight='bold'>Wildcraft Trees And Shrubs</font>: <font size=12>
-Bearnut, Chlorocibora, Poplar, Catalpa, (Vanilla: Redwood), Willow, Spruce, Douglas Fir, Elm, Sycamore, Red Cedar, Cedar, Ginkgo, Eucalyptus, Tuja, Saxaul, Empress Tree, Beech, Kauri, (Vanilla: Kapok), Blue Majoe, Satin Ash, Ghost Gum, (Vanilla: Walnut), Yew, Honey Locust, Sal, Ohia, Banyan, Dalbergia, Mahogany, Jacaranda, Umini, (Vanilla: Acacia), Petrified, Guajacum, (Vanilla: Ebony)</font>
-",
-
-"indappledgroves:item-handbooktitle-plank": "",
-"indappledgroves:item-handbooktext-plank": "<font align='center'><i>Oak boards where the carved ferns mingle,
-Monks’ shrines in the wilderness,
-Snug little huts in the dingle,
-All things that the sad poets bless.</i></font>
-<font weight='bold' align='center'>-Amy Ludwig VanDerwater</font>
-
-<font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font>
-<font size=18 weight='bold' align='center'>In Dappled Groves Uses:</font>
-<font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font>
-
-<font size=14 weight='bold'>Recipe Type:</font>  <font size=14> <a href=\"handbook://inworldcrafting-indappledgroves\">In World</a> & <a href=\"handbook://workstations-indappledgroves\">Workstation Crafting</a></font>
-<font size=14 weight='bold'>Tool Mode:</font>  <font size=14> <a href=\"handbook://inworldcrafting-indappledgroves\">Sawing</a></font>
-<font size=14 weight='bold'>Ingredients</font>: <font size=14> <a href=\"handbooksearch://log\">Any Log</a></font>
-<font size=14 weight='bold'>Common Tools</font>: <font size=14> <a href=\"handbooksearch:saw\">Saw</a>
-<font size=14 weight='bold'>Workstation</font>: <font size=14> <a href=\"handbooksearch:sawbuck\">sawbuck</a> or Ground</font>
-
-You can use any <a href=\"handbooksearch://saw\">saw tool</a> to <a href=\"handbook://toolmodes-indappledgroves\">saw</a> any <a href=\"handbooksearch://log\">log</a> on the <a href=\"handbook://inworldcrafting-indappledgroves\">ground</a> or on a <a href=\"handbooksearch:sawbuck\">sawbuck</a> to make boards.
-",
-
+  "indappledgroves:block-handbooktext-supportbeam": "\n<font size=18 weight='bold'>In Dappled Groves Uses:</font>\n<font size=14 weight='bold'>Recipe Type:</font></strong> <font size=14><a href=\"handbook://inworldcrafting-indappledgroves\">In World</a> & <a href=\"handbook://workstations-indappledgroves\">Workstation Crafting</a></font>\n<font size=14 weight='bold'>Tool Mode:</font></strong> <font size=14><a href=\"handbook://inworldcrafting-indappledgroves\">Hewing</a></font>\n<font size=14 weight='bold'>Ingredients</strong>:</font> <font size=14><a href=\"handbooksearch://debarked\">Any Debarked Log</a></font>\t\t\n<font size=14 weight='bold'>Common Tools</strong>:</font> <font size=14><a href=\"handbooksearch://adze\">adze</a>, <a href=\"handbooksearch://grub axe\">Grub Axe</a></font>\n<font size=14 weight='bold'>Workstation</strong>:</font> <font size=14><a href=\"handbook://workstations-indappledgroves\">Saw Buck</a></font>\n",
+  "item-handbooktitle-grubaxe": "Grub Axe",
+  "item-handbooktext-grubaxe": "A grub axe has a long handle and a stout head combining a vertical axe blade with a horizontal adze. This makes it a flexible tool capable of <a href=\"handbook://toolmodes-indappledgroves\">chopping</a> or <a href=\"handbook://toolmodes-indappledgroves\">hewing.</a>",
+  "item-grubaxehead-tinbronze": "Tin Bronze Grub Axe Head",
+  "item-grubaxehead-bismuthbronze": "Bismuth Bronze Grub Axe Head",
+  "item-grubaxehead-blackbronze": "Black Bronze Grub Axe Head",
+  "item-grubaxehead-iron": "Iron Grub Axe Head",
+  "item-grubaxehead-meteoriciron": "Meteoric Iron Grub Axe Head",
+  "item-grubaxehead-steel": "Steel Grub Axe Head",
+  "item-grubaxe-tinbronze": "Tin Bronze Grub Axe",
+  "item-grubaxe-bismuthbronze": "Bismuth Bronze Grub Axe",
+  "item-grubaxe-blackbronze": "Black Bronze Grub Axe",
+  "item-grubaxe-iron": "Iron Grub Axe",
+  "item-grubaxe-meteoriciron": "Meteoric Iron Grub Axe",
+  "item-grubaxe-steel": "Steel Grub Axe",
+  "item-handbooktitle-forestaxe": "Forest Axe",
+  "item-handbooktext-forestaxe": "\n<font align='center'><i>With aching limbs and tortured back,\nWe'd listen for the tree to crack.\nAnd there would be a thunderous sound,\nAs it came crashing to the ground.</i></font>\n<font weight='bold' align='center'>- George Savige</font>\n\n\t\t\t\t<font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font>\n\t\t\t\t\n\t\tThe distinguishing feature of forest axes is a long, rounded edge, with a flat elongated axe head. Forest Axes are specially designed to cut across the grain of the wood fibres, for example when felling and limbing.\t\n\t\tThis makes them exceptionally good for chopping down trees, though they perform poorly when attempting to <a href=\"handbook://toolmodes-indappledgroves\">chop</a> lumber into <a href=\"handbooksearch://log slab\">log slabs</a>, <a href=\"handbook://item-firewood\">fire wood</a>, and <a href=\"handbook://item-stick\">sticks</a>.\n\t\t",
+  "item-forestaxehead-tinbronze": "Tin Bronze Forest Axe Head",
+  "item-forestaxehead-bismuthbronze": "Bismuth Bronze Forest Axe Head",
+  "item-forestaxehead-blackbronze": "Black Bronze Forest Axe Head",
+  "item-forestaxehead-iron": "Iron Forest Axe Head",
+  "item-forestaxehead-meteoriciron": "Meteoric Iron Forest Axe Head",
+  "item-forestaxehead-steel": "Steel Forest Axe Head",
+  "item-forestaxe-tinbronze": "Tin Bronze Forest Axe",
+  "item-forestaxe-bismuthbronze": "Bismuth Bronze Forest Axe",
+  "item-forestaxe-blackbronze": "Black Bronze Forest Axe",
+  "item-forestaxe-iron": "Iron Forest Axe",
+  "item-forestaxe-meteoriciron": "Meteoric Iron Forest Axe",
+  "item-forestaxe-steel": "Steel Forest Axe",
+  "item-handbooktitle-maul": "Splitting Maul",
+  "item-handbooktext-maul": "This tool has a heavy head with a thick <a href=\"handbook://toolmodes-indappledgroves\">chopping</a> blade making it perfect for splitting <a href=\"handbooksearch://log\">logs</a> into <a href=\"handbooksearch://log slab\">slabs</a>. These can be further split into <a href=\"handbook://item-firewood\">fire wood</a>, and from there into <a href=\"handbook://item-stick\">sticks.</a> ",
+  "item-maulhead-tinbronze": "Tin Bronze Maul Head",
+  "item-maulhead-bismuthbronze": "Bismuth Bronze Maul Head",
+  "item-maulhead-blackbronze": "Black Bronze Maul Head",
+  "item-maulhead-iron": "Iron Maul Head",
+  "item-maulhead-meteoriciron": "Meteoric Iron Maul Head",
+  "item-maulhead-steel": "Steel Maul Head",
+  "item-maul-tinbronze": "Tin Bronze Splitting Maul",
+  "item-maul-bismuthbronze": "Bismuth Bronze Splitting Maul",
+  "item-maul-blackbronze": "Black Bronze Splitting Maul",
+  "item-maul-iron": "Iron Splitting Maul",
+  "item-maul-meteoriciron": "Meteoric Iron Splitting Maul",
+  "item-maul-steel": "Steel Splitting Maul",
+  "item-handbooktitle-drybark": "Bark",
+  "item-handbooktext-drybark": "Bark from trees is useful for making <a href=\"handbooksearch://bark basket\">bark baskets</a>. This is accomplished by fashioning them into <a href=\"handbooksearch://dry bark bundle\">bark bundles</a> and soaking them for 24 hours to produce <a href=\"handbooksearch://soaked bark\">soaked bark</a>.",
+  "item-bark": "Bark",
+  "item-handbooktitle-adze": "",
+  "item-handbooktext-adze": "",
+  "item-adzehead-flint": "Flint Adze Head",
+  "item-adzehead-chert": "Chert Adze Head",
+  "item-adzehead-granite": "Granite Adze Head",
+  "item-adzehead-andesite": "Andesite Adze Head",
+  "item-adzehead-basalt": "Basalt Adze Head",
+  "item-adzehead-obsidian": "Obsidian Adze Head",
+  "item-adzehead-peridotite": "Peridotite Adze Head",
+  "item-adzehead-tinbronze": "Tin Bronze Adze Head",
+  "item-adzehead-bismuthbronze": "Bismuth Bronze Adze Head",
+  "item-adzehead-blackbronze": "Black Bronze Adze Head",
+  "item-adzehead-iron": "Iron Adze Head",
+  "item-adzehead-meteoriciron": "Meteoric Iron Adze Head",
+  "item-adzehead-steel": "Steel Adze Head",
+  "item-adze-*-chert": "Chert Adze",
+  "item-adze-*-granite": "Granite Adze",
+  "item-adze-*-andesite": "Andesite Adze",
+  "item-adze-*-basalt": "Basalt Adze",
+  "item-adze-*-obsidian": "Obsidian Adze",
+  "item-adze-*-peridotite": "Peridotite Adze",
+  "item-adze-*-flint": "Flint Adze",
+  "item-adze-*-tinbronze": "Tin Bronze Adze",
+  "item-adze-*-bismuthbronze": "Bismuth Bronze Adze",
+  "item-adze-*-blackbronze": "Black Bronze Adze",
+  "item-adze-*-iron": "Iron Adze",
+  "item-adze-*-meteoriciron": "Meteoric Iron Adze",
+  "item-adze-*-steel": "Steel Adze",
+  "The Tyee and the bullcook...": "The Tyee and the bullcook...",
+  "...working sole and blade": "...working sole and blade",
+  "...with sturdy haft and bit": "...with sturdy haft and bit",
+  "...by dust and the dog": "...by dust and the dog",
+  "heldhelp-chopping": "Chop to create {0}",
+  "heldhelp-hewing": "Hew to create {0}",
+  "heldhelp-planing": "Plane to create {0}",
+  "heldhelp-sawing": "Saw to create {0}",
+  "indappledgrovesguide-inworldcrafting-title": "IDG: In-World Crafting",
+  "indappledgrovesguide-inworldcrafting-text": "<font weight='bold' align='center'>In-World Crafting</font>\nIn-World Crafting works to remove the dependence on the crafting \ngrid to create a more immersive experience. In Dappled Groves applies\nthis principle by providing two new mechanics to your woodworking\nadventures.\n\n<font weight='bold' align='center'>Ground Processing</font>\nThe first mechanic is the ability to process wood without the grid.\nYou can place a log, log slab, or piece of firewood on the ground and\ninteract with it with a tool such as an <a href=\"handbooksearch://axe\">axe</a>, <a href=\"handbooksearch://adze\">adze</a>, or <a href=\"handbooksearch://saw\">saw</a>. The results depend on the tool used and the selected <a href=\"handbook://toolmodes-indappledgroves\">tool mode</a>.  For instance, a <a href=\"handbooksearch://grub axe\">Grub Axe</a> set to hewing used on a log will produce bark, while selecting the chopping tool mode will result in log slabs.\n\n\n<font weight='bold' align='center'>Workstations</font>\n<a href=\"handbook://workstations-indappledgroves\">Workstations</a> are the second mechanic. These currently include the\nchopping block and saw buck. These workstations serve to provide a boost to efficiency when processing recipes\non them. Like before, the <a href=\"handbook://toolmodes-indappledgroves\">tool mode</a> of your tool alters the results.\n\nWorking materials on or off of a <a href=\"handbook://workstations-indappledgroves\">workstation</a> is done the same way. \nSimply target the block and hold down the right-mouse button. The\nworking animation will begin, and soon you'll see your results. Wood\ntypes vary in their hardness, so the time required may vary. Pine is a \nsofter wood, and will process quickly. Ebony is one of the world's\nhardest woods, and will take significantly longer, especially with\nstone tools.",
+  "indappledgrovesguide-workstations-title": "IDG: Workstation Crafting",
+  "indappledgrovesguide-workstations-text": "\n<font weight='bold' align='center'>Workstation Crafting</font>\n<font align='center'><i>‘And while I worked it made me think\nOf timber’s varied doom;\nOne inch where people eat and drink,\nThe next inch in a tomb.</i></font>\n<font weight='strong' align='center'>- “The Workbox” by Thomas Hardy</font>\n\nWorkstations are blocks that add an interactive element to producing resources. In Dappled Groves adds two such workstations, the <a href=\"handbooksearch://chopping block\">chopping block</a> and the <a href=\"handbooksearch:sawbuck\">sawbuck</a>.\n\n<font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font>\n\n<font weight='bold' align='center'>Workstations</font>\n\n<font weight='bold'>Chopping Block</font>\nThe chopping block is the most basic of workstations, made by using a <a href=\"handbook://toolmodes-indappledgroves\">hewing</a> tool such as an <a href=\"handbooksearch://adze\">adze</a> or a <a href=\"handbooksearch://grub axe\">grub axe</a> on a <a href=\"handbooksearch://log slab\">log slab</a> laid flat on the ground.\n\nThe <a href=\"handbooksearch://chopping block\">chopping block</a> is currently used for a number of <a href=\"handbook://toolmodes-indappledgroves\">chopping</a> and <a href=\"handbook://toolmodes-indappledgroves\">hewing</a> processes. You can process <a href=\"handbooksearch://log\">logs</a> into <a href=\"handbooksearch://log slab\">log slabs</a>, those into <a href=\"handbook://item-firewood\">firewood</a>, and those into <a href=\"handbook://item-stick\">sticks.</a>  These processes can also be done on the ground, but the chopping block speeds up the process.\n\n<font weight='bold' align='left'>Saw Buck</font>\nThe sawbuck becomes available after you craft <a href=\"handbook://item-plank-birch\">boards</a> on the ground with a <a href=\"handbooksearch://saw\">saw</a>. As with the chopping block, it speeds up processes performed on it, and is used for <a href=\"handbook://toolmodes-indappledgroves\">sawing</a> logs into <a href=\"handbooksearch://board\">boards</a>, and <a href=\"handbook://toolmodes-indappledgroves\">hewing</a> them into <a href=\"handbooksearch://beam\">support beams</a>.\n",
+  "indappledgrovesguide-toolmodes-title": "IDG: Tool Modes",
+  "indappledgrovesguide-toolmodes-text": "<font weight='bold' align='center'>Tool Modes</font>\nTool modes provide options in how a tool is used, and can be changed\nby pressing the F key while holding a tool that has them. In vanilla, \ntool modes can be seen with the chisel and prospecting pick. This mod\nadds these options to other tools to provide more dynamic crafting\nopportunities when combined with different materials and <a href=\"handbook://workstations-indappledgroves\">workstations</a>.\n\n<font weight='bold' align='center'>Basic Concepts</font>\nTool modes in this mod provide access to different recipes and\ntherefore different outputs based the tool, crafting station, and\ninput. Three different tool modes have been implemented as of this\nversion, with a fourth presently disabled and a fifth being planned.\n\nNot all tools will have access to the same tool modes, nor will\nall tools that have access to a tool mode be guaranteed to be effective\nat the indicated process. Some tools are simply better at some things \nthan others. For instance, you can hew wood with the backside of a \n<a href=\"handbooksearch://grub axe\">grub axe</a>, but it's not as effective as the same tier <a href=\"handbooksearch://adze\">adze</a> will be.\n\n<font weight='bold' align='center'>Tool Modes</font>\n\n<font weight='bold'>Chopping:</font> Used when chopping wood into slabs, firewood, and sticks. May be changed to 'splitting' in a future revision. Found in any form of <a href=\"handbook://item-axe-wood-tinbronze\">axe</a>, including <a href=\"handbooksearch://forest axe\">forest axe</a>, <a href=\"handbooksearch://grub axe\">grub axes</a>, and <a href=\"handbooksearch://splitting maul\">mauls</a>.\n\n<font weight='bold'>Hewing:</font> Used when shaping wood or 'peeling' it, such as when removing bark. Currently used only for peeling bark, creating chopping blocks from slabs, and making beams on the <a href=\"handbooksearch:sawbuck\">sawbuck</a>. Found in any <a href=\"handbooksearch:adze\">adze</a> or <a href=\"handbooksearch://grub axe\">Grub Axe</a>.'\n\n<font weight='bold'>Sawing:</font> Used by saws, when making boards out of logs. Found in, unsurprisingly, the <a href=\"handbooksearch://saw\">saw.</a>\n\n<font weight='bold'>Pounding:</font> This tool mode is available in the <a href=\"handbooksearch://splitting maul\">splitting maul</a>, and is used with the <a href=\"handbooksearch://log splitter\">log splitter</a>. to produce <a href=\"handbook://item-firewood\">fire wood</a> efficiently. It is also used for making <a href=\"handbooksearch://log slab\">log slabs</a>.",
+  "item-handbooktitle-firewood": "In Dappled Groves Uses:",
+  "item-handbooktext-firewood": "Can be made by <a href=\"handbook://toolmodes-indappledgroves\">chopping</a> a log slab after placing on the ground, or on a <a href=\"handbooksearch://chopping block\">chopping block</a>. Can be placed on the ground or a <a href=\"handbooksearch://chopping block\">chopping block</a> and processed into sticks by <a href=\"handbook://toolmodes-indappledgroves\">chopping</a> them with an axe or other chopping tool. ",
+  "woodresistance-indappledgroves": "IDG: Varied Wood Resistance",
+  "indappledgroves:indappledgrovesguide-woodresistance-title": "IDG Mechanic: Varied Wood Resistance",
+  "indappledgroves:indappledgrovesguide-woodresistance-text": "<font align='center'><i>Good timber does not grow with ease,\nThe stronger wind, the stronger trees;\nThe further sky, the greater length;\nThe more the storm, the more the strength.</i></font>\n<font weight='bold' align='center'>- Good Timber by Douglas Malloch</font>\n\n<font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font>\n<font size=18 weight='bold' align='center'>Wood Resistances and Wood Working</font>\n<font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font>\n\nWoods in In Dappled Groves have different wood resistance by type. \nThis influences how quickly you can fell trees and process wood \nmaterials.The resistance of the wood, the workstation you're using, \nand the effectivenss of your tool all play into how quickly a tree \ncan be felled and the wood then worked.\n\nWood hardness is derived from the <a href=\"https://en.wikipedia.org/wiki/Janka_hardness_test\">Janka Hardness test</a>, and \naccordingly represent an approximate simulation of VS woods in \nrelation to one another in RL. Not to be confused with this \n<a href=\"https://www.youtube.com/watch?v=CoACA_LNKt0\">test.</a>\n\nYou're welcome, I'm a nerd.\n\n<font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font>\n<font size=18 weight='bold' align='center'>Wood Resistance in Order By Mod Softest To Hardest</font>\n<font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font>\n\n<font size=14 weight='bold'>Vanilla</font>:<font size=12>\t\nRedwood, Larch, Pine, Kapok, Walnut, Birch, Oak, Maple, Acacia, Purpleheart, Ebony</font>\n\n<font size=14 weight='bold'>Wildcraft Trees And Shrubs</font>: <font size=12>\nBearnut, Chlorocibora, Poplar, Catalpa, (Vanilla: Redwood), Willow, Spruce, Douglas Fir, Elm, Sycamore, Red Cedar, Cedar, Ginkgo, Eucalyptus, Tuja, Saxaul, Empress Tree, Beech, Kauri, (Vanilla: Kapok), Blue Majoe, Satin Ash, Ghost Gum, (Vanilla: Walnut), Yew, Honey Locust, Sal, Ohia, Banyan, Dalbergia, Mahogany, Jacaranda, Umini, (Vanilla: Acacia), Petrified, Guajacum, (Vanilla: Ebony)</font>\n",
+  "indappledgroves:item-handbooktitle-plank": "",
+  "indappledgroves:item-handbooktext-plank": "<font align='center'><i>Oak boards where the carved ferns mingle,\nMonks’ shrines in the wilderness,\nSnug little huts in the dingle,\nAll things that the sad poets bless.</i></font>\n<font weight='bold' align='center'>-Amy Ludwig VanDerwater</font>\n\n<font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font>\n<font size=18 weight='bold' align='center'>In Dappled Groves Uses:</font>\n<font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font><font color='#795825'><icon name=tree></icon></font><font color='#4ba328'><icon name=tree></icon></font><font color='#065e30'><icon name=tree></icon></font><font color='#E98604'><icon name=tree></icon></font>\n\n<font size=14 weight='bold'>Recipe Type:</font>  <font size=14> <a href=\"handbook://inworldcrafting-indappledgroves\">In World</a> & <a href=\"handbook://workstations-indappledgroves\">Workstation Crafting</a></font>\n<font size=14 weight='bold'>Tool Mode:</font>  <font size=14> <a href=\"handbook://inworldcrafting-indappledgroves\">Sawing</a></font>\n<font size=14 weight='bold'>Ingredients</font>: <font size=14> <a href=\"handbooksearch://log\">Any Log</a></font>\n<font size=14 weight='bold'>Common Tools</font>: <font size=14> <a href=\"handbooksearch:saw\">Saw</a>\n<font size=14 weight='bold'>Workstation</font>: <font size=14> <a href=\"handbooksearch:sawbuck\">sawbuck</a> or Ground</font>\n\nYou can use any <a href=\"handbooksearch://saw\">saw tool</a> to <a href=\"handbook://toolmodes-indappledgroves\">saw</a> any <a href=\"handbooksearch://log\">log</a> on the <a href=\"handbook://inworldcrafting-indappledgroves\">ground</a> or on a <a href=\"handbooksearch:sawbuck\">sawbuck</a> to make boards.\n"
 }

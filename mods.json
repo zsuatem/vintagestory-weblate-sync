@@ -122,7 +122,8 @@
   {
     "name": "Wool & More",
     "modid": "wool",
-    "version": "1.7.2"
+    "version": "1.8.0",
+    "lastUpdated": "2025-10-24"
   },
   {
     "name": "Butchering",
