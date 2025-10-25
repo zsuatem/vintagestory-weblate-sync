@@ -140,8 +140,7 @@ void FixJson()
             try
             {
                 var token = LoadAnyJson(file);
-                var jsonText = token.ToString(NJson.Formatting.Indented);
-                jsonText = jsonText.Replace("\r\n", "\n") + "\n";
+                var jsonText = JsonHelper.FormatJson(token);
                 File.WriteAllText(file, jsonText, new UTF8Encoding(false));
 
                 Log($"✅ {Path.GetRelativePath(baseDir, file)}", ConsoleColor.Green);
@@ -299,8 +298,7 @@ async Task UpdateMods()
                         try
                         {
                             var token = NJson.Linq.JToken.Parse(enText);
-                            var jsonOut = token.ToString(NJson.Formatting.Indented)
-                                               .Replace("\r\n", "\n") + "\n";
+                            var jsonOut = JsonHelper.FormatJson(token);
                             File.WriteAllText(outPath, jsonOut, new UTF8Encoding(false));
                             Log($"💾 Saved: {outPath}", ConsoleColor.Green);
                         }
@@ -452,7 +450,7 @@ void BuildModPack(string? versionArg, bool saveHistory = true)
         ["authors"] = new NJson.Linq.JArray(authors),
         ["dependencies"] = new NJson.Linq.JObject { ["game"] = "" }
     };
-    var modInfoJson = modInfo.ToString(NJson.Formatting.Indented).Replace("\r\n", "\n");
+    var modInfoJson = JsonHelper.FormatJson(modInfo);
     File.WriteAllText(Path.Combine(buildDir, "modinfo.json"), modInfoJson, new UTF8Encoding(false));
 
     Log($"🏗️  Building pack {packName}...", ConsoleColor.Blue);
@@ -556,7 +554,7 @@ void BuildModPack(string? versionArg, bool saveHistory = true)
         var targetPath = Path.Combine(buildDir, relativePath.Replace("/", Path.DirectorySeparatorChar.ToString()));
         Directory.CreateDirectory(Path.GetDirectoryName(targetPath)!);
         
-        var jsonText = mergedData.ToString(NJson.Formatting.Indented).Replace("\r\n", "\n") + "\n";
+        var jsonText = JsonHelper.FormatJson(mergedData);
         File.WriteAllText(targetPath, jsonText, new UTF8Encoding(false));
     }
 
@@ -810,7 +808,7 @@ void SaveBuildHistory(string version, List<(string name, string version, string 
 
         history.Insert(0, buildEntry);
 
-        var historyText = history.ToString(NJson.Formatting.Indented).Replace("\r\n", "\n") + "\n";
+        var historyText = JsonHelper.FormatJson(history);
         File.WriteAllText(historyPath, historyText, new UTF8Encoding(false));
 
         Log($"📊 Build history saved to {Paths.BuildHistory}", ConsoleColor.Gray);
@@ -862,6 +860,23 @@ class NormalizingJsonTextReader : NJson.JsonTextReader
     }
 }
 
+static class JsonHelper
+{
+    public static string FormatJson(NJson.Linq.JToken token)
+    {
+        var sb = new StringBuilder();
+        using (var sw = new StringWriter(sb))
+        using (var writer = new NJson.JsonTextWriter(sw))
+        {
+            writer.Formatting = NJson.Formatting.Indented;
+            writer.Indentation = 4;
+            writer.IndentChar = ' ';
+            token.WriteTo(writer);
+        }
+        return sb.ToString().Replace("\r\n", "\n") + "\n";
+    }
+}
+
 static class Paths
 {
     public const string ModsJson = "mods.json";
@@ -907,7 +922,7 @@ class ModsDatabase
     public void Save()
     {
         var jArray = new NJson.Linq.JArray(_mods.ToArray());
-        var jsonText = jArray.ToString(NJson.Formatting.Indented).Replace("\r\n", "\n") + "\n";
+        var jsonText = JsonHelper.FormatJson(jArray);
         File.WriteAllText(_filePath, jsonText, new UTF8Encoding(false));
     }
 

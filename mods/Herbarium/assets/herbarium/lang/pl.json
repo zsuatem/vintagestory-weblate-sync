@@ -1,14 +1,14 @@
 {
-  "blockhelp-berrybush-clip": "Przytnij gałąź",
-  "game:berrybush-too-cold": "Zbyt zimno do kwitnięcia lub owocowania",
-  "game:berrybush-too-hot": "Zbyt gorąco do kwitnięcia lub owocowania",
-  "game:clipping-too-cold": "Zbyt zimno do wzrostu",
-  "game:clipping-too-hot": "Zbyt gorąco do wzrostu",
-  "game:berrybush-shed-xdays": "Świeże jagody przez około {0} dni",
-  "game:berrybush-shed-1day": "Świeże jagody przez mniej niż jeden dzień",
-  "game:berrybush-sprouting-xdays": "Nowe pędy pojawią się za {0} dni",
-  "game:berrybush-sprouting-1day": "Nowe pędy pojawią się za mniej niż jeden dzień",
-  "game:berrybush-clipping-growth-xdays": "Przycięte gałązki odrosną za {0} dni",
-  "game:berrybush-clipping-growth-1day": "Przycięte gałązki odrosną za mniej niż jeden dzień",
-  "game:fruitingvine-sprouting-nosupport": "Nie może dalej rosnąć bez odpowiedniego podparcia"
+    "blockhelp-berrybush-clip": "Przytnij gałąź",
+    "game:berrybush-too-cold": "Zbyt zimno do kwitnięcia lub owocowania",
+    "game:berrybush-too-hot": "Zbyt gorąco do kwitnięcia lub owocowania",
+    "game:clipping-too-cold": "Zbyt zimno do wzrostu",
+    "game:clipping-too-hot": "Zbyt gorąco do wzrostu",
+    "game:berrybush-shed-xdays": "Świeże jagody przez około {0} dni",
+    "game:berrybush-shed-1day": "Świeże jagody przez mniej niż jeden dzień",
+    "game:berrybush-sprouting-xdays": "Nowe pędy pojawią się za {0} dni",
+    "game:berrybush-sprouting-1day": "Nowe pędy pojawią się za mniej niż jeden dzień",
+    "game:berrybush-clipping-growth-xdays": "Przycięte gałązki odrosną za {0} dni",
+    "game:berrybush-clipping-growth-1day": "Przycięte gałązki odrosną za mniej niż jeden dzień",
+    "game:fruitingvine-sprouting-nosupport": "Nie może dalej rosnąć bez odpowiedniego podparcia"
 }

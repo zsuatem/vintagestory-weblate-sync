@@ -1,5 +1,5 @@
 {
-  "imgui-toggle": "Toggle ImGUI windows",
-  "imgui-increase-font-size": "Increase ImGUI ont size",
-  "imgui-decrease-font-size": "Decrease ImGUI font size"
+    "imgui-toggle": "Toggle ImGUI windows",
+    "imgui-increase-font-size": "Increase ImGUI ont size",
+    "imgui-decrease-font-size": "Decrease ImGUI font size"
 }

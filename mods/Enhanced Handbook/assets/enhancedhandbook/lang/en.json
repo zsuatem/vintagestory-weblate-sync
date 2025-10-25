@@ -1,14 +1,14 @@
 {
-  "button-create-category": "Create Category",
-  "button-delete-category": "Delete Category",
-  "button-rename-category": "Rename Category",
-  "tab-armor": "Armor",
-  "toggle-original-search": "Orig. Search",
-  "toggle-recipes-only": "Recipes Only",
-  "dialog-create-category-title": "New category name:",
-  "dialog-create-category-message": "",
-  "dialog-create-category-placeholder": "Category name",
-  "dialog-create-category-ok": "OK",
-  "dialog-create-category-cancel": "Cancel",
-  "dialog-rename-category-title": "Rename the selected category"
+    "button-create-category": "Create Category",
+    "button-delete-category": "Delete Category",
+    "button-rename-category": "Rename Category",
+    "tab-armor": "Armor",
+    "toggle-original-search": "Orig. Search",
+    "toggle-recipes-only": "Recipes Only",
+    "dialog-create-category-title": "New category name:",
+    "dialog-create-category-message": "",
+    "dialog-create-category-placeholder": "Category name",
+    "dialog-create-category-ok": "OK",
+    "dialog-create-category-cancel": "Cancel",
+    "dialog-rename-category-title": "Rename the selected category"
 }

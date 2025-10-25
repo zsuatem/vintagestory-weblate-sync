@@ -1,13 +1,13 @@
 {
-  "dressmakers:handbook-description": "Opis",
-  "dressmakers:setting_enable_common_clothing": "Zwykłe ubrania",
-  "dressmakers:setting_enable_class_clothing": "Ubrania klasowe",
-  "dressmakers:setting_enable_nadiyan_clothing": "Ubrania Nadijańskie",
-  "dressmakers:setting_enable_wool": "Wool & More",
-  "dressmakers:setting_enable_common_clothing_comment": "Włącza przepisy na standardowe ubrania z Vintage Story",
-  "dressmakers:setting_enable_class_clothing_comment": "Włącza przepisy na ubrania charakterystyczne dla poszczególnych klas postaci z Vintage Story",
-  "dressmakers:setting_enable_nadiyan_clothing_comment": "Włącza przepisy na ubrania Nadijańskie z Vintage Story",
-  "dressmakers:setting_enable_wool_comment": "Dodaje alternatywne przepisy wykorzystujące wełnę",
-  "dressmakers:settings_title_clothing_recipes": "Przepisy Dressmakers na ubrania z gry",
-  "dressmakers:settings_title_mod_recipes": "Zgodność z innymi modami"
+    "dressmakers:handbook-description": "Opis",
+    "dressmakers:setting_enable_common_clothing": "Zwykłe ubrania",
+    "dressmakers:setting_enable_class_clothing": "Ubrania klasowe",
+    "dressmakers:setting_enable_nadiyan_clothing": "Ubrania Nadijańskie",
+    "dressmakers:setting_enable_wool": "Wool & More",
+    "dressmakers:setting_enable_common_clothing_comment": "Włącza przepisy na standardowe ubrania z Vintage Story",
+    "dressmakers:setting_enable_class_clothing_comment": "Włącza przepisy na ubrania charakterystyczne dla poszczególnych klas postaci z Vintage Story",
+    "dressmakers:setting_enable_nadiyan_clothing_comment": "Włącza przepisy na ubrania Nadijańskie z Vintage Story",
+    "dressmakers:setting_enable_wool_comment": "Dodaje alternatywne przepisy wykorzystujące wełnę",
+    "dressmakers:settings_title_clothing_recipes": "Przepisy Dressmakers na ubrania z gry",
+    "dressmakers:settings_title_mod_recipes": "Zgodność z innymi modami"
 }

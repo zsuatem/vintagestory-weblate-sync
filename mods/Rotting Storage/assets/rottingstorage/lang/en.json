@@ -1,9 +1,9 @@
 {
-  "setting-rottenitemcodes": "Rotten Item Codes",
-  "setting-rottenitemcodes-desc": "Comma-separated list of item codes that will be considered rot",
-  "setting-rottenblockcodes": "Rotten Block Codes",
-  "setting-rottenblockcodes-desc": "Comma-separated list of block codes that will be considered rot",
-  "setting-perishrateincreaseperitem": "Perish Rate Increase Per Item",
-  "setting-perishrateincreaseperitem-desc": "The amount the perish rate increases per rotten item in a container",
-  "setting-title": "Rotting Storage Settings"
+    "setting-rottenitemcodes": "Rotten Item Codes",
+    "setting-rottenitemcodes-desc": "Comma-separated list of item codes that will be considered rot",
+    "setting-rottenblockcodes": "Rotten Block Codes",
+    "setting-rottenblockcodes-desc": "Comma-separated list of block codes that will be considered rot",
+    "setting-perishrateincreaseperitem": "Perish Rate Increase Per Item",
+    "setting-perishrateincreaseperitem-desc": "The amount the perish rate increases per rotten item in a container",
+    "setting-title": "Rotting Storage Settings"
 }

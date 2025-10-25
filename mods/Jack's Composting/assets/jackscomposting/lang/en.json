@@ -1,5 +1,5 @@
 {
-  "item-wastepile": "Organic Wastepile",
-  "itemdesc-wastepile": "This mix of grass and rot can decompose efficiently in a barrel.",
-  "game:itemdesc-rot": "Unrecognizable food.  Can be mixed with dry grass or thatch as a starting point for compost."
+    "item-wastepile": "Organic Wastepile",
+    "itemdesc-wastepile": "This mix of grass and rot can decompose efficiently in a barrel.",
+    "game:itemdesc-rot": "Unrecognizable food.  Can be mixed with dry grass or thatch as a starting point for compost."
 }
