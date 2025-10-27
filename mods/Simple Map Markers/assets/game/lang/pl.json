@@ -1,1 +1,16 @@
-{}
+{
+    "game:wpSuggestion-bismuth": "Bizmut",
+    "game:wpSuggestion-chromium": "Chrom",
+    "game:wpSuggestion-copper": "Miedź",
+    "game:wpSuggestion-gold": "Złoto",
+    "game:wpSuggestion-iron": "Żelazo",
+    "game:wpSuggestion-lead": "Ołów",
+    "game:wpSuggestion-nickel": "Nikiel",
+    "game:wpSuggestion-silver": "Srebro",
+    "game:wpSuggestion-tin": "Cyna",
+    "game:wpSuggestion-titanium": "Tytan",
+    "game:wpSuggestion-zinc": "Cynk",
+    "game:wpSuggestion-sulfur": "Siarka",
+    "game:wpSuggestion-carbon": "Węgiel",
+    "game:wpSuggestion-silicon": "Kwarc"
+}
