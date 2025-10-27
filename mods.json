@@ -43,7 +43,8 @@
     {
         "name": "Wildcraft Fruits and Nuts",
         "modid": "wildcraftfruit",
-        "version": "1.4.2"
+        "version": "1.4.3",
+        "lastUpdated": "2025-10-27"
     },
     {
         "name": "Wildcraft Trees and Shrubs",
