@@ -94,7 +94,8 @@
     {
         "name": "Real Smoke",
         "modid": "realsmoke",
-        "version": "1.1.9"
+        "version": "1.1.10",
+        "lastUpdated": "2025-10-28"
     },
     {
         "name": "Lathe Mod",
@@ -296,7 +297,8 @@
     {
         "name": "Hydrate or Diedrate",
         "modid": "hydrateordiedrate",
-        "version": "2.2.24"
+        "version": "2.2.26",
+        "lastUpdated": "2025-10-28"
     },
     {
         "name": "Immersive Rope Crafting",
