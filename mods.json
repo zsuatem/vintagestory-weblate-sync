@@ -49,7 +49,8 @@
     {
         "name": "Wildcraft Trees and Shrubs",
         "modid": "wildcrafttree",
-        "version": "1.3.2"
+        "version": "1.3.3",
+        "lastUpdated": "2025-10-29"
     },
     {
         "name": "Wildcraft Herbs and Spices",
@@ -166,8 +167,8 @@
     {
         "name": "Arrow Barrels",
         "modid": "arrowbarrels",
-        "version": "1.3.0",
-        "lastUpdated": "2025-10-28"
+        "version": "1.4.0",
+        "lastUpdated": "2025-10-29"
     },
     {
         "name": "Explosives",

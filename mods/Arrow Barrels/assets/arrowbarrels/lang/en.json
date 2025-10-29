@@ -1,4 +1,8 @@
 {
+    "arrowbarrels:setting-slots": "Inventory slots",
+    "arrowbarrels:arrowbarrel-separator": "Arrow Barrels Settings",
+    "arrowbarrels:spearbarrel-separator": "Spear Barrels Settings",
+    "arrowbarrels:stickbarrel-separator": "Stick Barrels Settings",
     "arrowbarrels:block-wood-*-arrowbarrel": "Arrow barrel",
     "arrowbarrels:block-wood-aged-arrowbarrel": "Aged arrow barrel",
     "arrowbarrels:block-wood-birch-arrowbarrel": "Birch arrow barrel",
