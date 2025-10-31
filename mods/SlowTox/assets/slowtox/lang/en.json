@@ -4,6 +4,7 @@
     "slowtox:Config.Setting.IntoxicationSpeed": "The overall rate at which intoxicants are processed",
     "slowtox:Config.Setting.IntakeRate": "How quickly intoxication builds up (this is carefully tuned, adjusting IntoxicationSpeed is preferred)",
     "slowtox:Config.Setting.DecayRate": "How quickly intoxication decays (this is carefully tuned, adjusting IntoxicationSpeed is preferred)",
+    "slowtox:Config.Setting.HabitualToleranceChangeRate": "The rate at which tolerance adjusts based on habits",
     "slowtox:Config.Setting.OverintoxicationThreshold": "Threshold after which intoxication causes self-damage",
     "slowtox:Config.Setting.HealthRegenIntoxRangeBottom": "Threshold after which health regeneration is given",
     "slowtox:Config.Setting.HealthRegenIntoxRangeTop": "Threshold after which health regeneration is no longer given",
