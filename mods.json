@@ -61,7 +61,8 @@
     {
         "name": "A Culinary Artillery",
         "modid": "aculinaryartillery",
-        "version": "2.0.0-dev.5"
+        "version": "2.0.0-dev.6",
+        "lastUpdated": "2025-11-01"
     },
     {
         "name": "Expanded Foods",
