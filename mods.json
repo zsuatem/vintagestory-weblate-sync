@@ -135,7 +135,8 @@
     {
         "name": "Butchering",
         "modid": "butchering",
-        "version": "1.10.8"
+        "version": "1.10.9",
+        "lastUpdated": "2025-11-01"
     },
     {
         "name": "Expanded Matter",
